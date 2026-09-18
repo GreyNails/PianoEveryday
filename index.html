@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>钢琴谱集 · 跟谱练习</title>
+  <meta name="description" content="钢琴原谱播放、拖动定位与实时琴键音名。">
+  <meta name="theme-color" content="#f4f2ec">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script defer src="piano-audio.js"></script>
+  <script defer src="fingering.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<div class="app">
+  <header class="heading">
+    <div class="identity"><div class="logo" aria-hidden="true">♫</div><div><div class="eyebrow">PIANO / 跟谱练习</div><h1><span id="songTitle" style="font:inherit;color:inherit;margin:0">钢琴跟谱</span> <span id="credit"></span></h1></div></div>
+    <label class="song-picker" for="songSelect">曲谱<select id="songSelect" aria-label="切换曲谱"><option>正在加载…</option></select></label><div class="score-meta"><span id="keyLabel"></span><span id="meterLabel"></span><span id="measureTotal"></span></div>
+  </header>
+  <section class="transport" aria-label="播放控制">
+    <div class="controls">
+      <button id="play" class="play" disabled><span id="playIcon">▶</span><span id="playText">加载琴谱</span></button>
+      <button id="reset" class="icon-button" title="回到开头" aria-label="回到开头" disabled>↺</button>
+      <label class="mode-picker" for="practiceMode">模式 <select id="practiceMode"><option value="play">自动播放</option><option value="L">左手练习</option><option value="R">右手练习</option></select></label>
+      <label class="tempo" for="tempo">速度 <input id="tempo" type="number" min="40" max="220" value="140" step="5" inputmode="numeric"><span>BPM</span></label>
+      <label class="volume" for="volume">音量 <input id="volume" type="range" min="0" max="100" value="65"></label>
+      <label class="follow"><input id="follow" type="checkbox" checked>自动跟谱</label>
+      <div class="measure-counter"><strong id="measure">1</strong><span id="measureCount"></span><span class="beat-dots" id="beatDots" aria-hidden="true"><i></i><i></i><i></i><i></i></span></div>
+    </div>
+    <div class="timeline"><time id="elapsed">0:00</time><input id="progress" type="range" min="0" max="1" value="0" step="0.125" aria-label="播放进度"><time id="total">0:00</time></div>
+  </section>
+  <section id="practicePanel" class="practice-panel" aria-label="分手练习" hidden>
+    <div class="practice-row"><strong id="practicePrompt" role="status" aria-live="polite">选择一只手开始练习</strong><span id="practiceCount"></span></div>
+    <div class="practice-row"><span>按齐提示音后前进，错音不跳转；和弦可依次点击。</span><button id="connectMidi" type="button">连接 MIDI 电钢琴</button><span id="midiStatus" role="status">未连接</span></div>
+    <div class="practice-row"><label for="inputOctave">电脑键盘起始音 <select id="inputOctave"><option value="0">C0</option><option value="1">C1</option><option value="2">C2</option><option value="3">C3</option><option value="4" selected>C4</option><option value="5">C5</option><option value="6">C6</option><option value="7">C7</option></select></label><span>A W S E D F T G Y H U J K → C 至高八度 C；Z / X 降 / 升八度。也可直接点击下方琴键。</span></div>
+  </section>
+  <div class="score-bar"><div class="pages" aria-label="琴谱页码"><span>琴谱</span><div id="pageNav"></div></div><span class="hint">点击谱面定位 · 拖动指针跟弹 <kbd>空格</kbd> 播放 / 暂停</span></div>
+  <div id="scoreNotice" class="score-notice" role="status" hidden></div>
+  <main id="scoreViewport" class="score-viewport" aria-label="可点击和拖动的原始琴谱"><div id="scorePages" class="score-pages"><div class="loading">正在展开琴谱…</div></div></main>
+  <section class="piano-panel" aria-label="实时钢琴键盘">
+    <div class="piano-top"><div class="live-heading"><span class="live-dot" id="liveDot"></span><strong>此刻的琴键</strong><span id="status" class="status">准备播放</span></div><div class="legend"><span class="right-legend">右手</span><span class="left-legend">左手</span><span class="range-label">中央 C = C4</span></div></div>
+    <div class="finger-guide"><label><input id="showFingers" type="checkbox" checked> 显示参考指法</label><span>1 拇指 · 2 食指 · 3 中指 · 4 无名指 · 5 小指</span></div>
+    <div id="fingerAdvice" class="finger-advice" aria-live="polite"></div>
+    <div class="notes-now"><div><span class="hand-label right-text">右手</span><span id="rightNotes" class="note-list">—</span></div><div><span class="hand-label left-text">左手</span><span id="leftNotes" class="note-list">—</span></div></div>
+    <div id="keyboardScroll" class="keyboard-scroll"><div id="keyboard" class="keyboard" aria-label="钢琴键盘"></div></div>
+    <div class="piano-bottom"><span><span id="toneStatus" role="status">钢琴采样 · 首次播放时加载</span></span><span><a href="audio/piano/SOURCE-LICENSE.txt" target="_blank" rel="noopener">Salamander Grand Piano · 音源署名</a></span></div>
+  </section>
+</div>
+<div id="error" class="error" role="alert" hidden></div>
+</body></html>
