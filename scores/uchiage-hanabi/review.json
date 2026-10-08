@@ -1,0 +1,51 @@
+{
+  "id": "uchiage-hanabi",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "032f19534b22b59443f0618d7400c53b01a8f582bd6e52bac0e249ef7cb966c4",
+  "method": "pdf-glyph-geometry",
+  "pages": 10,
+  "pageEventCounts": [
+    317,
+    314,
+    404,
+    351,
+    420,
+    463,
+    328,
+    303,
+    544,
+    452
+  ],
+  "eventCount": 3896,
+  "measureCount": 112,
+  "rhythmIssues": [],
+  "rejectedCandidates": [],
+  "limitations": [
+    "尚未逐音、逐小节人工校准。",
+    "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+    "小节时长闭合不代表所有音高、时值和分手均正确。",
+    "反复记号未展开，按谱面顺序试听。"
+  ],
+  "candidateCount": 3896,
+  "visuallyCheckedCorrections": [
+    {
+      "measures": [
+        6,
+        8,
+        24,
+        26,
+        34,
+        45,
+        46,
+        51,
+        80,
+        81,
+        82,
+        83
+      ],
+      "reason": "直接看谱校正独立声部、震音、六连音及错分谱表；不按整小节缩放。第71小节末尾的1.5拍休止为原谱记号，保留。"
+    }
+  ],
+  "sourceGlyphCount": 3858
+}

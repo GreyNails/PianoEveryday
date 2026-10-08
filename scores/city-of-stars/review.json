@@ -1,0 +1,495 @@
+{
+  "id": "city-of-stars",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "8c2b0f8f4ac54a814f8a2c608362df013efc749e5d28f0613640fd635f551bb9",
+  "method": "raster-symbol-candidates",
+  "pages": 4,
+  "pageEventCounts": [
+    179,
+    142,
+    252,
+    106
+  ],
+  "eventCount": 679,
+  "measureCount": 55,
+  "rhythmIssues": [
+    {
+      "page": 1,
+      "measure": 1,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 2,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 3,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 4,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 5,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 6,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 7,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 8,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 9,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 10,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 11,
+      "kind": "rhythm-not-closed",
+      "readBeats": 1.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 12,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 13,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 14,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 15,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 16,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 17,
+      "kind": "rhythm-not-closed",
+      "readBeats": 1.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 18,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 19,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 20,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 21,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 22,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 23,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 24,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 25,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 26,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 27,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 30,
+      "kind": "rhythm-not-closed",
+      "readBeats": 6.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 31,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 32,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 33,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 34,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 35,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 36,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 37,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 38,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.625,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 39,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 40,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 41,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.25,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 42,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 43,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 44,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 45,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.375,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 46,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 47,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 49,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2.375,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 50,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 51,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 52,
+      "kind": "rhythm-not-closed",
+      "readBeats": 1.75,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 53,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 54,
+      "kind": "rhythm-not-closed",
+      "readBeats": 2,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 55,
+      "kind": "rhythm-not-closed",
+      "readBeats": 8.0,
+      "meterBeats": 4,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    }
+  ],
+  "rejectedCandidates": [],
+  "limitations": [
+    "尚未逐音、逐小节人工校准。",
+    "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+    "未闭合小节仅为试听按拍号缩放；不是已确认时值。",
+    "反复记号未展开，按谱面顺序试听。"
+  ],
+  "candidateCount": 679,
+  "sourceGlyphCount": null
+}

@@ -1,0 +1,11 @@
+__pycache__/
+.pdf-import-*/
+.env
+.env.*
+!.env.example
+*.log
+# Regenerable LilyPond outputs; retain notation sources and coordinate evidence.
+/transcription/final-*/linked.ly
+/transcription/final-*/linked.pdf
+/transcription/final-*/linked.midi
+/transcription/pianogen3-final/staged/

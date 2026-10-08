@@ -1,0 +1,83 @@
+{
+  "id": "hua-hai",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "a750daae30a20025cf8a0d562a50cd66a71c11751c72d3e9f4421061806834d8",
+  "method": "pdf-glyph-geometry",
+  "pages": 6,
+  "pageEventCounts": [
+    312,
+    541,
+    342,
+    427,
+    338,
+    176
+  ],
+  "eventCount": 2136,
+  "measureCount": 84,
+  "rhythmIssues": [
+    {
+      "page": 1,
+      "measure": 17,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 18,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 42,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 44,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 48,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 5,
+      "measure": 74,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.25,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    }
+  ],
+  "rejectedCandidates": [],
+  "limitations": [
+    "尚未逐音、逐小节人工校准。",
+    "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+    "未闭合小节仅为试听按拍号缩放；不是已确认时值。",
+    "反复记号未展开，按谱面顺序试听。"
+  ],
+  "candidateCount": 2136,
+  "sourceGlyphCount": 2136
+}

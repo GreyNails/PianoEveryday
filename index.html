@@ -5,12 +5,46 @@
   <title>钢琴谱集 · 跟谱练习</title>
   <meta name="description" content="钢琴原谱播放、拖动定位与实时琴键音名。">
   <meta name="theme-color" content="#f4f2ec">
+  <script>
+    // Keep this independent of app.js so script failures remain visible.
+    (function () {
+      var pending = '', ready = false;
+      function report(message) {
+        pending = message;
+        var notice = document.getElementById('startupNotice');
+        if (notice) { notice.textContent = message; notice.hidden = false; }
+      }
+      var timer = setTimeout(function () {
+        if (!ready) report('页面加载超过 15 秒。请确认当前网址是本项目的 HTTP 地址，且服务仍在运行。');
+      }, 15000);
+      window.pianoStartupReady = function () { ready = true; clearTimeout(timer); };
+      window.addEventListener('error', function (event) {
+        var target = event.target;
+        if (target && target.tagName === 'SCRIPT') report('页面脚本加载失败，请检查服务目录并刷新页面。');
+        else if (target && target.tagName === 'LINK') report('页面样式加载失败，请检查服务目录并刷新页面。');
+        else if (target && target.tagName === 'IMG') report('琴谱图片加载失败，请检查网络并重新选择曲目。');
+        else if (event.message) report('页面运行出错：' + event.message);
+      }, true);
+      window.addEventListener('unhandledrejection', function (event) {
+        report('页面加载出错：' + String(event.reason && event.reason.message || event.reason));
+      });
+      document.addEventListener('DOMContentLoaded', function () {
+        if (location.protocol === 'file:') {
+          clearTimeout(timer);
+          report('当前直接打开了 HTML 文件，浏览器会阻止曲库读取。请先启动项目的 HTTP 服务，再用 http:// 地址打开。');
+        } else if (pending) report(pending);
+      });
+    }());
+  </script>
   <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
   <script defer src="piano-audio.js"></script>
+  <script defer src="performance.js"></script>
   <script defer src="fingering.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
+<noscript><div style="padding:16px;background:#fff7df;color:#362b16">此页面需要 JavaScript。请在浏览器中启用 JavaScript 后刷新。</div></noscript>
+<div id="startupNotice" role="alert" hidden style="position:fixed;top:12px;left:12px;right:12px;z-index:1000;padding:16px;background:#fff7df;color:#362b16;border:1px solid #bd974d;border-radius:8px;white-space:normal"></div>
 <div class="app">
   <header class="heading">
     <div class="identity"><div class="logo" aria-hidden="true">♫</div><div><div class="eyebrow">PIANO / 跟谱练习</div><h1><span id="songTitle" style="font:inherit;color:inherit;margin:0">钢琴跟谱</span> <span id="credit"></span></h1></div></div>
@@ -21,6 +55,7 @@
       <button id="play" class="play" disabled><span id="playIcon">▶</span><span id="playText">加载琴谱</span></button>
       <button id="reset" class="icon-button" title="回到开头" aria-label="回到开头" disabled>↺</button>
       <label class="mode-picker" for="practiceMode">模式 <select id="practiceMode"><option value="play">自动播放</option><option value="L">左手练习</option><option value="R">右手练习</option><option value="both">双手练习</option></select></label>
+      <label class="mode-picker" for="performanceMode">演奏 <select id="performanceMode" title="自然演奏适度突出高声部、减轻伴奏；可切换为谱面力度作对比。"><option value="natural">自然 · 旋律优先</option><option value="written">谱面力度</option></select></label>
       <label class="tempo" for="tempo">速度 <input id="tempo" type="number" min="40" max="220" value="140" step="5" inputmode="numeric"><span>BPM</span></label>
       <label class="volume" for="volume">音量 <input id="volume" type="range" min="0" max="100" value="65"></label>
       <label class="follow"><input id="follow" type="checkbox" checked>自动跟谱</label>
@@ -33,7 +68,7 @@
     <div class="practice-row"><span>按齐提示音后前进，错音不跳转；和弦可依次点击。</span><button id="connectMidi" type="button">连接 MIDI 电钢琴</button><span id="midiStatus" role="status">未连接</span></div>
     <div class="practice-row"><label for="inputOctave">电脑键盘起始音 <select id="inputOctave"><option value="0">C0</option><option value="1">C1</option><option value="2">C2</option><option value="3">C3</option><option value="4" selected>C4</option><option value="5">C5</option><option value="6">C6</option><option value="7">C7</option></select></label><span>A W S E D F T G Y H U J K → C 至高八度 C；Z / X 降 / 升八度。也可直接点击下方琴键。</span></div>
   </section>
-  <div class="score-bar"><div class="pages" aria-label="琴谱页码"><span>琴谱</span><div id="pageNav"></div></div><span class="hint">点击谱面定位 · 拖动指针跟弹 <kbd>空格</kbd> 播放 / 暂停</span></div>
+  <div class="score-bar"><div class="pages" aria-label="琴谱页码"><span>琴谱</span><div id="pageNav"></div></div><a id="originalPdf" target="_blank" rel="noopener" hidden>打开原 PDF</a><span class="hint">点击谱面定位 · 拖动指针跟弹 <kbd>空格</kbd> 播放 / 暂停</span></div>
   <div id="scoreNotice" class="score-notice" role="status" hidden></div>
   <main id="scoreViewport" class="score-viewport" aria-label="可点击和拖动的原始琴谱"><div id="scorePages" class="score-pages"><div class="loading">正在展开琴谱…</div></div></main>
   <section class="piano-panel" aria-label="实时钢琴键盘">

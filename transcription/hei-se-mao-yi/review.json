@@ -1,0 +1,108 @@
+{
+  "id": "hei-se-mao-yi",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "6043b2bd1f4db172753042037fa416b7dca903ce5cf6dfe2f143ad19df886e09",
+  "method": "pdf-glyph-geometry",
+  "pages": 5,
+  "pageEventCounts": [
+    344,
+    454,
+    490,
+    557,
+    19
+  ],
+  "eventCount": 1864,
+  "measureCount": 120,
+  "rhythmIssues": [],
+  "rejectedCandidates": [],
+  "limitations": [
+    "已对照原谱修正局部连音、独立声部、跨谱表及八度线，保留全部提取的音符字形。",
+    "全曲逐音准确性及实际听感未校对完成，未实测实体 MIDI。"
+  ],
+  "candidateCount": 1864,
+  "visuallyCheckedCorrections": [
+    {
+      "measure": 3,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 4,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 13,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 28,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 33,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 34,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 41,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 42,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 43,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 78,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 86,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 90,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 91,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 92,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 97,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 116,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 117,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 118,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 119,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    },
+    {
+      "measure": 120,
+      "reason": "按原谱重排独立声部，保留休止、切分、三连音与跨谱表和弦。"
+    }
+  ],
+  "manualNoteheadReadings": [],
+  "sourceGlyphCount": 1864
+}

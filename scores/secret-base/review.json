@@ -1,0 +1,110 @@
+{
+  "id": "secret-base",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "b8dc403e968a4f444493170441184aefbbf5f0be9cd93f1eab0adc6be3d07c82",
+  "method": "pdf-glyph-geometry",
+  "pages": 6,
+  "pageEventCounts": [
+    304,
+    381,
+    331,
+    399,
+    379,
+    110
+  ],
+  "eventCount": 1904,
+  "measureCount": 157,
+  "rhythmIssues": [
+    {
+      "page": 1,
+      "measure": 22,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 25,
+      "kind": "rhythm-not-closed",
+      "readBeats": 6.0,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 1,
+      "measure": 26,
+      "kind": "rhythm-not-closed",
+      "readBeats": 7.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 53,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.0,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 59,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 2,
+      "measure": 61,
+      "kind": "rhythm-not-closed",
+      "readBeats": 4.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 86,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.666667,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 3,
+      "measure": 87,
+      "kind": "rhythm-not-closed",
+      "readBeats": 3.5,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    },
+    {
+      "page": 4,
+      "measure": 91,
+      "kind": "rhythm-not-closed",
+      "readBeats": 5.0,
+      "meterBeats": 4.0,
+      "preview": "scaled-to-meter",
+      "reviewed": false
+    }
+  ],
+  "rejectedCandidates": [],
+  "limitations": [
+    "尚未逐音、逐小节人工校准。",
+    "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+    "未闭合小节仅为试听按拍号缩放；不是已确认时值。",
+    "反复记号未展开，按谱面顺序试听。"
+  ],
+  "candidateCount": 1904,
+  "sourceGlyphCount": 1904
+}

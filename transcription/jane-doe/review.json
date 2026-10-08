@@ -1,0 +1,70 @@
+{
+  "id": "jane-doe",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "66825f702ba3570385dfea6328088993f7dc76df0d825487586b3bebbb5120ca",
+  "method": "pdf-glyph-geometry",
+  "pages": 7,
+  "pageEventCounts": [
+    381,
+    456,
+    422,
+    354,
+    413,
+    384,
+    466
+  ],
+  "eventCount": 2876,
+  "measureCount": 190,
+  "rhythmIssues": [],
+  "rejectedCandidates": [],
+  "limitations": [
+    "全部音符字形已提取，不等于音高、节奏与分手全部准确。",
+    "局部复合拍连音、休止、跨谱表和八度线已按谱修正；其余仍待逐音复核。",
+    "自由速度、渐慢与踏板尚未量化；尚未进行实际听音和实体 MIDI 验证。"
+  ],
+  "candidateCount": 2876,
+  "visuallyCheckedCorrections": [
+    {
+      "page": 2,
+      "system": 4,
+      "localMeasure": 2,
+      "reason": "两组五连音各占附点四分音符（1.5 个四分拍），非普通 5:4。"
+    },
+    {
+      "page": 2,
+      "system": 5,
+      "localMeasure": 1,
+      "reason": "两组五连音各占附点四分音符（1.5 个四分拍），非普通 5:4。"
+    },
+    {
+      "page": 3,
+      "system": 1,
+      "localMeasure": 4,
+      "reason": "四连音各占 1.5 拍；末两音跨到上谱表，保持左手并按高音谱号取音高。"
+    },
+    {
+      "page": 6,
+      "system": 2,
+      "localMeasure": 3,
+      "reason": "八连音占最后一个附点四分拍，与左手普通八分音符独立对齐。"
+    },
+    {
+      "page": 2,
+      "system": 2,
+      "localMeasure": 5,
+      "reason": "独立长音和横向错开的符头同时起拍，不按印刷横坐标顺次演奏。"
+    },
+    {
+      "page": 6,
+      "system": 6,
+      "localMeasure": 3,
+      "reason": "独立长音和横向错开的符头同时起拍，不按印刷横坐标顺次演奏。"
+    },
+    {
+      "page": 7,
+      "reason": "第 4 行首小节第 4 个八分音符起升八度，持续到第 5 行第 2 小节结束。"
+    }
+  ],
+  "sourceGlyphCount": 2876
+}

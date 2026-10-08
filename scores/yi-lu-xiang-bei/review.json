@@ -1,0 +1,46 @@
+{
+  "id": "yi-lu-xiang-bei",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "6dcad01c04d7f80a6f21388bb82c38f7093b16246c42b4a06e1b76520117a3bf",
+  "method": "pdf-glyph-geometry",
+  "pages": 6,
+  "pageEventCounts": [
+    306,
+    445,
+    464,
+    436,
+    430,
+    402
+  ],
+  "eventCount": 2483,
+  "measureCount": 80,
+  "rhythmIssues": [],
+  "rejectedCandidates": [],
+  "limitations": [
+    "尚未逐音、逐小节人工校准。",
+    "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+    "小节时长闭合不代表所有音高、时值和分手均正确。",
+    "反复记号未展开，按谱面顺序试听。"
+  ],
+  "candidateCount": 2483,
+  "visuallyCheckedCorrections": [
+    {
+      "page": 4,
+      "measure": 48,
+      "reason": "l.h. 方括号内缩小印刷的音符是实际左手八分音符声部，不是装饰音。",
+      "onsets": [
+        1.5,
+        2
+      ],
+      "duration": 0.5,
+      "hand": "L",
+      "pitches": [
+        77,
+        79,
+        84
+      ]
+    }
+  ],
+  "sourceGlyphCount": 2483
+}

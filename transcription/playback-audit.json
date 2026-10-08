@@ -1,0 +1,2846 @@
+{
+  "scope": "Playback data and source-derived timing audit; not a claim of listening or full score review.",
+  "changes": [
+    "Merge simultaneous unison attacks without changing score/practice events.",
+    "Optional upper-voice balance with explicit source dynamics preserved.",
+    "Same-pitch re-strikes damp the old excitation; written rests stay rests.",
+    "Natural ending keeps sample release and room decay.",
+    "Late/seek scheduling resumes sample phase rather than bursting missed attacks."
+  ],
+  "scores": [
+    {
+      "id": "sunshine",
+      "title": "阳光宅男",
+      "status": "existing",
+      "writtenAttacks": 1716,
+      "playbackAttacks": 1716,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 16,
+      "contiguousJoins": 1232,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "iris-out",
+      "title": "IRIS OUT",
+      "status": "existing",
+      "writtenAttacks": 2421,
+      "playbackAttacks": 2421,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 6,
+      "naturalVelocityLevels": 78,
+      "contiguousJoins": 1971,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "feng",
+      "title": "枫",
+      "status": "existing",
+      "writtenAttacks": 2248,
+      "playbackAttacks": 2241,
+      "duplicateAttacksMerged": 7,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 21,
+      "contiguousJoins": 1246,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "tanjiro",
+      "title": "灶门炭治郎之歌",
+      "status": "existing",
+      "writtenAttacks": 2672,
+      "playbackAttacks": 2669,
+      "duplicateAttacksMerged": 3,
+      "sourceVelocityLevels": 8,
+      "naturalVelocityLevels": 126,
+      "contiguousJoins": 1993,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "sparkle-animenz",
+      "title": "Sparkle / 火花（A叔原版）",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 3262,
+      "playbackAttacks": 3252,
+      "duplicateAttacksMerged": 10,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 21,
+      "contiguousJoins": 2164,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 12,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 20,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 28,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 33,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 35,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 36,
+          "readBeats": 3.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 37,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 39,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 44,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 47,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 48,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 49,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 50,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 51,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 52,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 53,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 54,
+          "readBeats": 5.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 55,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 56,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 59,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 60,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 61,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 63,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 64,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 67,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 68,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 69,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 72,
+          "readBeats": 6.571429,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 75,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 81,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 85,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 116,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 129,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 131,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 133,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 135,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 137,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 138,
+          "readBeats": 4.666667,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 139,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 140,
+          "readBeats": 4.666667,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 141,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 142,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 143,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 144,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 145,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 147,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 148,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 149,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 152,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 153,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 154,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 155,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 156,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 161,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 162,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 164,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 167,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 168,
+          "readBeats": 3.166667,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "qing-tian",
+      "title": "晴天",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1989,
+      "playbackAttacks": 1980,
+      "duplicateAttacksMerged": 9,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 22,
+      "contiguousJoins": 959,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 64,
+      "onsetAlignmentCandidatesToReview": 31,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "a-thousand-years",
+      "title": "A Thousand Years",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2214,
+      "playbackAttacks": 2214,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 1702,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 2,
+          "measure": 31,
+          "readBeats": 3.25,
+          "meterBeats": 3
+        },
+        {
+          "page": 3,
+          "measure": 37,
+          "readBeats": 2.5,
+          "meterBeats": 3
+        },
+        {
+          "page": 3,
+          "measure": 39,
+          "readBeats": 3.25,
+          "meterBeats": 3
+        },
+        {
+          "page": 5,
+          "measure": 75,
+          "readBeats": 3.25,
+          "meterBeats": 3
+        },
+        {
+          "page": 6,
+          "measure": 85,
+          "readBeats": 3.75,
+          "meterBeats": 3
+        },
+        {
+          "page": 6,
+          "measure": 89,
+          "readBeats": 3.5,
+          "meterBeats": 3
+        },
+        {
+          "page": 6,
+          "measure": 91,
+          "readBeats": 3.375,
+          "meterBeats": 3
+        },
+        {
+          "page": 7,
+          "measure": 95,
+          "readBeats": 3.25,
+          "meterBeats": 3
+        },
+        {
+          "page": 7,
+          "measure": 97,
+          "readBeats": 4.25,
+          "meterBeats": 3
+        },
+        {
+          "page": 7,
+          "measure": 98,
+          "readBeats": 3.25,
+          "meterBeats": 3
+        },
+        {
+          "page": 7,
+          "measure": 99,
+          "readBeats": 4.125,
+          "meterBeats": 3
+        },
+        {
+          "page": 7,
+          "measure": 102,
+          "readBeats": 2.75,
+          "meterBeats": 3
+        },
+        {
+          "page": 8,
+          "measure": 105,
+          "readBeats": 3.75,
+          "meterBeats": 3
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "city-of-stars",
+      "title": "City of Stars",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 679,
+      "playbackAttacks": 679,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 314,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 1,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 2,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 3,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 4,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 5,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 6,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 7,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 8,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 9,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 10,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 11,
+          "readBeats": 1.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 12,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 13,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 14,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 15,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 16,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 17,
+          "readBeats": 1.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 18,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 19,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 20,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 21,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 22,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 23,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 24,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 25,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 26,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 27,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 30,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 31,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 32,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 33,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 34,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 35,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 36,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 37,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 38,
+          "readBeats": 2.625,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 39,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 40,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 41,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 42,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 43,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 44,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 45,
+          "readBeats": 4.375,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 46,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 47,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 49,
+          "readBeats": 2.375,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 50,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 51,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 52,
+          "readBeats": 1.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 53,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 54,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 55,
+          "readBeats": 8,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "flower-dance",
+      "title": "Flower Dance",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2316,
+      "playbackAttacks": 2308,
+      "duplicateAttacksMerged": 8,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 1590,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 120,
+      "onsetAlignmentCandidatesToReview": 735,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "kataware-doki",
+      "title": "黄昏之时",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 936,
+      "playbackAttacks": 926,
+      "duplicateAttacksMerged": 10,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 6,
+      "contiguousJoins": 647,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "secret-base",
+      "title": "Secret Base / 未闻花名",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1773,
+      "playbackAttacks": 1772,
+      "duplicateAttacksMerged": 1,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 20,
+      "contiguousJoins": 1163,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 22,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 25,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 26,
+          "readBeats": 7.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 53,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 59,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 61,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 86,
+          "readBeats": 3.666667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 87,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 91,
+          "readBeats": 5,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "call-of-silence",
+      "title": "Call of Silence",
+      "status": "manual-reference",
+      "writtenAttacks": 1129,
+      "playbackAttacks": 1129,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 21,
+      "contiguousJoins": 912,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "young-and-beautiful",
+      "title": "Young and Beautiful",
+      "status": "manual-reference",
+      "writtenAttacks": 1401,
+      "playbackAttacks": 1401,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 735,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "wake-me-up-when-september-ends",
+      "title": "Wake Me Up When September Ends",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1038,
+      "playbackAttacks": 1027,
+      "duplicateAttacksMerged": 11,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 15,
+      "contiguousJoins": 510,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 1,
+          "readBeats": 16,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 2,
+          "readBeats": 9.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 3,
+          "readBeats": 7.125,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 4,
+          "readBeats": 7.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 5,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 6,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 7,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 8,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 9,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 11,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 12,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 13,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 14,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 15,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 16,
+          "readBeats": 1.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 17,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 18,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 19,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 21,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 22,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 23,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 24,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 25,
+          "readBeats": 1.625,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 26,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 27,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 28,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 29,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 30,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 31,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 32,
+          "readBeats": 8,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 33,
+          "readBeats": 1.875,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 34,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 35,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 36,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 37,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 38,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 39,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 40,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 41,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 42,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 43,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 44,
+          "readBeats": 5.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 45,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 46,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 47,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 48,
+          "readBeats": 1,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 49,
+          "readBeats": 1.625,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 50,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 51,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 52,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 53,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 54,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 55,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 57,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 58,
+          "readBeats": 7.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 59,
+          "readBeats": 10,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 60,
+          "readBeats": 19,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 61,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 62,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 64,
+          "readBeats": 1.625,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 65,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 66,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 67,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 69,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 70,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 72,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 73,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 74,
+          "readBeats": 1,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 75,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 76,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 77,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 78,
+          "readBeats": 1,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 80,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 81,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 82,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 83,
+          "readBeats": 2,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "wo-ji-de",
+      "title": "我记得",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1485,
+      "playbackAttacks": 1469,
+      "duplicateAttacksMerged": 16,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 21,
+      "contiguousJoins": 1159,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 76,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "yi-lu-xiang-bei",
+      "title": "一路向北",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2295,
+      "playbackAttacks": 2286,
+      "duplicateAttacksMerged": 9,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 20,
+      "contiguousJoins": 1101,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "qi-li-xiang",
+      "title": "七里香",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2660,
+      "playbackAttacks": 2658,
+      "duplicateAttacksMerged": 2,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 25,
+      "contiguousJoins": 1617,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "silksong-clockwork-dancers",
+      "title": "丝之歌 · 机枢舞者",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1533,
+      "playbackAttacks": 1531,
+      "duplicateAttacksMerged": 2,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 1121,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "your-name-date",
+      "title": "约会",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1027,
+      "playbackAttacks": 1027,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 3,
+      "naturalVelocityLevels": 7,
+      "contiguousJoins": 798,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "an-jing",
+      "title": "安静",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2007,
+      "playbackAttacks": 1990,
+      "duplicateAttacksMerged": 17,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 21,
+      "contiguousJoins": 1444,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 84,
+      "onsetAlignmentCandidatesToReview": 226,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "uchiage-hanabi",
+      "title": "打上花火",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 3698,
+      "playbackAttacks": 3692,
+      "duplicateAttacksMerged": 6,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 20,
+      "contiguousJoins": 2412,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "ge-qian",
+      "title": "搁浅",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1862,
+      "playbackAttacks": 1858,
+      "duplicateAttacksMerged": 4,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 37,
+      "contiguousJoins": 1169,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "interstellar",
+      "title": "星际穿越 / Interstellar",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2845,
+      "playbackAttacks": 2844,
+      "duplicateAttacksMerged": 1,
+      "sourceVelocityLevels": 4,
+      "naturalVelocityLevels": 26,
+      "contiguousJoins": 2101,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "sparkle-alternate",
+      "title": "火花（另一 PDF 版本）",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 3261,
+      "playbackAttacks": 3251,
+      "duplicateAttacksMerged": 10,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 21,
+      "contiguousJoins": 2163,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 12,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 20,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 28,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 33,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 35,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 36,
+          "readBeats": 3.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 37,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 39,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 44,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 47,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 48,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 49,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 50,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 51,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 52,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 53,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 54,
+          "readBeats": 5.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 55,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 56,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 59,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 60,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 61,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 63,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 64,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 67,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 68,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 69,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 72,
+          "readBeats": 6.571429,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 75,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 81,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 85,
+          "readBeats": 4.333333,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 116,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 129,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 131,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 133,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 135,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 137,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 138,
+          "readBeats": 4.666667,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 139,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 140,
+          "readBeats": 4.666667,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 141,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 142,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 143,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 144,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 145,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 147,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 148,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 149,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 6,
+          "measure": 152,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 153,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 154,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 155,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 156,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 161,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 162,
+          "readBeats": 4.166667,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 164,
+          "readBeats": 4.833333,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 167,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 7,
+          "measure": 168,
+          "readBeats": 3.166667,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "hua-hai",
+      "title": "花海",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1925,
+      "playbackAttacks": 1920,
+      "duplicateAttacksMerged": 5,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 1148,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 17,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 18,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 42,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 44,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 48,
+          "readBeats": 5.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 74,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "pu-gong-ying-de-yue-ding",
+      "title": "蒲公英的约定",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2334,
+      "playbackAttacks": 2331,
+      "duplicateAttacksMerged": 3,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 1557,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "jue-bie-shu",
+      "title": "诀别书",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2604,
+      "playbackAttacks": 2597,
+      "duplicateAttacksMerged": 7,
+      "sourceVelocityLevels": 2,
+      "naturalVelocityLevels": 24,
+      "contiguousJoins": 1976,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 75,
+      "onsetAlignmentCandidatesToReview": 73,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "zhe-shi-jie-na-me-duo-ren",
+      "title": "这世界那么多人",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1624,
+      "playbackAttacks": 1620,
+      "duplicateAttacksMerged": 4,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 18,
+      "contiguousJoins": 652,
+      "unresolvedRhythmMeasures": [
+        {
+          "page": 1,
+          "measure": 1,
+          "readBeats": 5.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 2,
+          "readBeats": 1,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 3,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 4,
+          "readBeats": 0.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 5,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 6,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 7,
+          "readBeats": 3.125,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 8,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 9,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 10,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 11,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 12,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 13,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 14,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 15,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 16,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 17,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 18,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 19,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 20,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 21,
+          "readBeats": 2.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 22,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 23,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 1,
+          "measure": 24,
+          "readBeats": 3.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 26,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 27,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 28,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 29,
+          "readBeats": 7,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 30,
+          "readBeats": 10.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 31,
+          "readBeats": 9,
+          "meterBeats": 4
+        },
+        {
+          "page": 2,
+          "measure": 32,
+          "readBeats": 10.125,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 33,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 34,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 35,
+          "readBeats": 3.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 36,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 37,
+          "readBeats": 7.625,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 38,
+          "readBeats": 7.875,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 39,
+          "readBeats": 18.875,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 40,
+          "readBeats": 10.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 3,
+          "measure": 41,
+          "readBeats": 8.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 42,
+          "readBeats": 4.375,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 43,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 44,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 45,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 46,
+          "readBeats": 5.625,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 47,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 48,
+          "readBeats": 6,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 49,
+          "readBeats": 4.75,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 51,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 55,
+          "readBeats": 5.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 58,
+          "readBeats": 3.125,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 59,
+          "readBeats": 1.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 60,
+          "readBeats": 6.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 61,
+          "readBeats": 3.875,
+          "meterBeats": 4
+        },
+        {
+          "page": 4,
+          "measure": 62,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 63,
+          "readBeats": 3.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 64,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 65,
+          "readBeats": 5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 66,
+          "readBeats": 3,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 68,
+          "readBeats": 7.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 69,
+          "readBeats": 1.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 70,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 71,
+          "readBeats": 4.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 72,
+          "readBeats": 1.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 73,
+          "readBeats": 1.875,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 74,
+          "readBeats": 2,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 75,
+          "readBeats": 4.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 76,
+          "readBeats": 1.5,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 77,
+          "readBeats": 3.875,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 78,
+          "readBeats": 2.25,
+          "meterBeats": 4
+        },
+        {
+          "page": 5,
+          "measure": 79,
+          "readBeats": 2.5,
+          "meterBeats": 4
+        }
+      ],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "hei-se-mao-yi",
+      "title": "黑色毛衣",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 1785,
+      "playbackAttacks": 1785,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 20,
+      "contiguousJoins": 1435,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "jane-doe",
+      "title": "JANE DOE",
+      "status": "unreviewed-draft",
+      "writtenAttacks": 2408,
+      "playbackAttacks": 2404,
+      "duplicateAttacksMerged": 4,
+      "sourceVelocityLevels": 1,
+      "naturalVelocityLevels": 19,
+      "contiguousJoins": 1884,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": false
+    },
+    {
+      "id": "final-enchanted",
+      "title": "Enchanted · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 3522,
+      "playbackAttacks": 3522,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 80,
+      "naturalVelocityLevels": 80,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-merry-christmas-mr-lawrence",
+      "title": "Merry Christmas Mr. Lawrence · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1912,
+      "playbackAttacks": 1912,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 57,
+      "naturalVelocityLevels": 57,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-photograph",
+      "title": "Photograph · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1953,
+      "playbackAttacks": 1953,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 64,
+      "naturalVelocityLevels": 64,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-the-fate-of-ophelia",
+      "title": "The Fate of Ophelia · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1783,
+      "playbackAttacks": 1783,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 66,
+      "naturalVelocityLevels": 66,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-all-too-well",
+      "title": "All Too Well · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2353,
+      "playbackAttacks": 2353,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 68,
+      "naturalVelocityLevels": 68,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-bad-habits",
+      "title": "Bad Habits · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2513,
+      "playbackAttacks": 2513,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 62,
+      "naturalVelocityLevels": 62,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-cardigan",
+      "title": "Cardigan · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1653,
+      "playbackAttacks": 1653,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 56,
+      "naturalVelocityLevels": 56,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-exile",
+      "title": "Exile · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1576,
+      "playbackAttacks": 1576,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 66,
+      "naturalVelocityLevels": 66,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-eyes-closed",
+      "title": "Eyes Closed · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1521,
+      "playbackAttacks": 1521,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 97,
+      "naturalVelocityLevels": 97,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-hes-a-pirate",
+      "title": "He's a Pirate · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1930,
+      "playbackAttacks": 1930,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 74,
+      "naturalVelocityLevels": 74,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-jane-doe",
+      "title": "JANE DOE · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2465,
+      "playbackAttacks": 2465,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 37,
+      "naturalVelocityLevels": 37,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-look-what-you-made-me-do",
+      "title": "Look What You Made Me Do · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1814,
+      "playbackAttacks": 1814,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 68,
+      "naturalVelocityLevels": 68,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-love-story",
+      "title": "Love Story · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2158,
+      "playbackAttacks": 2158,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 67,
+      "naturalVelocityLevels": 67,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-perfect",
+      "title": "Perfect · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1729,
+      "playbackAttacks": 1729,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 68,
+      "naturalVelocityLevels": 68,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-sapphire",
+      "title": "Sapphire · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1346,
+      "playbackAttacks": 1346,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 55,
+      "naturalVelocityLevels": 55,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-shivers",
+      "title": "Shivers · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2363,
+      "playbackAttacks": 2363,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 68,
+      "naturalVelocityLevels": 68,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-speak-now",
+      "title": "Speak Now · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1834,
+      "playbackAttacks": 1834,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 71,
+      "naturalVelocityLevels": 71,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-the-1",
+      "title": "The 1 · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1105,
+      "playbackAttacks": 1105,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 56,
+      "naturalVelocityLevels": 56,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-viva-la-vida",
+      "title": "Viva La Vida · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2480,
+      "playbackAttacks": 2480,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 51,
+      "naturalVelocityLevels": 51,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-willow",
+      "title": "Willow · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 1836,
+      "playbackAttacks": 1836,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 60,
+      "naturalVelocityLevels": 60,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    },
+    {
+      "id": "final-yan-hua-yi-leng",
+      "title": "烟花易冷 · MIDI 版",
+      "status": "midi-imported",
+      "writtenAttacks": 2028,
+      "playbackAttacks": 2028,
+      "duplicateAttacksMerged": 0,
+      "sourceVelocityLevels": 85,
+      "naturalVelocityLevels": 85,
+      "contiguousJoins": 0,
+      "unresolvedRhythmMeasures": [],
+      "sourcePulseAlignedMeasures": 0,
+      "onsetAlignmentCandidatesToReview": 0,
+      "hasPedalExtensions": true
+    }
+  ],
+  "duplicateAttacksMerged": 149,
+  "unresolvedRhythmMeasures": 343,
+  "onsetAlignmentCandidatesToReview": 1065
+}

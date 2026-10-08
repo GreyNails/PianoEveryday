@@ -1,0 +1,7646 @@
+{
+  "id": "wo-ji-de",
+  "status": "unreviewed-draft",
+  "reviewed": false,
+  "sourceSha256": "d0f5ce11068d6856b3db135a24264507063aef32ec9970fd58e5f8757ea3885d",
+  "method": "visual-opening-reading + raster-candidates-with-source-pulse-alignment",
+  "pages": 8,
+  "pageEventCounts": [
+    147,
+    206,
+    205,
+    255,
+    153,
+    215,
+    266,
+    82
+  ],
+  "eventCount": 1529,
+  "measureCount": 89,
+  "rhythmIssues": [],
+  "rejectedCandidates": [],
+  "limitations": [
+    "前 12 小节直接读谱；后段按原谱拍点对齐，消除非等拍的小节缩放。",
+    "扫描音高、漏音及部分音符时值仍待逐音复核；拍点对齐不代表整谱准确。",
+    "尚未完成实际听音或实体 MIDI 键盘验证。"
+  ],
+  "candidateCount": 1531,
+  "visuallyCheckedCorrections": [
+    {
+      "reason": "按原谱重建小节边界，排除谱号调号和符杠误识别；核对换谱号及八度线。后续音符节奏仍需逐音校对。",
+      "layouts": [
+        {
+          "page": 1,
+          "system": 1,
+          "measures": 3,
+          "barlines": [
+            540.6097828471156,
+            869.3836367624478,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 1,
+          "system": 2,
+          "measures": 3,
+          "barlines": [
+            527.8350515463917,
+            851.1340206185566,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 1,
+          "system": 3,
+          "measures": 2,
+          "barlines": [
+            738.8286905023031,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 1,
+          "system": 4,
+          "measures": 2,
+          "barlines": [
+            725.3520508883527,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 1,
+          "system": 5,
+          "measures": 2,
+          "barlines": [
+            734.8980039482343,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 2,
+          "system": 1,
+          "measures": 2,
+          "barlines": [
+            725.3520508883527,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 2,
+          "system": 2,
+          "measures": 3,
+          "barlines": [
+            562.088177231849,
+            870.9278350515465,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 2,
+          "system": 3,
+          "measures": 3,
+          "barlines": [
+            560.5439789427506,
+            890.8620311471815,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 2,
+          "system": 4,
+          "measures": 3,
+          "barlines": [
+            507.6200921254661,
+            842.7111208598377,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 2,
+          "system": 5,
+          "measures": 2,
+          "barlines": [
+            632.9809168677342,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 3,
+          "system": 1,
+          "measures": 2,
+          "barlines": [
+            717.3502961175698,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 3,
+          "system": 2,
+          "measures": 2,
+          "barlines": [
+            634.5251151568326,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 3,
+          "system": 3,
+          "measures": 2,
+          "barlines": [
+            717.3502961175698,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 3,
+          "system": 4,
+          "measures": 2,
+          "barlines": [
+            660.0745777582803,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 3,
+          "system": 5,
+          "measures": 2,
+          "barlines": [
+            717.3502961175698,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 3,
+          "system": 6,
+          "measures": 2,
+          "barlines": [
+            634.5251151568326,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 4,
+          "system": 1,
+          "measures": 2,
+          "barlines": [
+            733.2134239964904,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 4,
+          "system": 2,
+          "measures": 3,
+          "barlines": [
+            603.9219127001535,
+            889.7389778460189,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 4,
+          "system": 3,
+          "measures": 3,
+          "barlines": [
+            577.2493967975433,
+            878.9295898223294,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 4,
+          "system": 4,
+          "measures": 3,
+          "barlines": [
+            527.8350515463917,
+            898.8637859179644,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 4,
+          "system": 5,
+          "measures": 3,
+          "barlines": [
+            518.2890984865103,
+            858.9953937266945,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 5,
+          "system": 1,
+          "measures": 3,
+          "barlines": [
+            518.2890984865103,
+            833.586312787892,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 5,
+          "system": 2,
+          "measures": 2,
+          "barlines": [
+            742.759377056372,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 5,
+          "system": 3,
+          "measures": 2,
+          "barlines": [
+            711.735029611757,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 5,
+          "system": 4,
+          "measures": 2,
+          "barlines": [
+            764.3781531037508,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 5,
+          "system": 5,
+          "measures": 2,
+          "barlines": [
+            711.735029611757,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 6,
+          "system": 1,
+          "measures": 2,
+          "barlines": [
+            669.6205308181619,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 6,
+          "system": 2,
+          "measures": 2,
+          "barlines": [
+            702.1890765518754,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 6,
+          "system": 3,
+          "measures": 2,
+          "barlines": [
+            693.4854134678658,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 6,
+          "system": 4,
+          "measures": 2,
+          "barlines": [
+            703.8736565036191,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 6,
+          "system": 5,
+          "measures": 2,
+          "barlines": [
+            669.6205308181619,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 7,
+          "system": 1,
+          "measures": 2,
+          "barlines": [
+            683.9394604079843,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 7,
+          "system": 2,
+          "measures": 2,
+          "barlines": [
+            782.6277692476419,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 7,
+          "system": 3,
+          "measures": 2,
+          "barlines": [
+            683.9394604079843,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 7,
+          "system": 4,
+          "measures": 2,
+          "barlines": [
+            771.116472910726,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 7,
+          "system": 5,
+          "measures": 2,
+          "barlines": [
+            697.135336696644,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 8,
+          "system": 1,
+          "measures": 3,
+          "barlines": [
+            638.5961833735469,
+            975.2314103970168,
+            1198.8593989910069
+          ]
+        },
+        {
+          "page": 8,
+          "system": 2,
+          "measures": 4,
+          "barlines": [
+            463.8210133801272,
+            824.0403597280106,
+            1011.0287343715727,
+            1195.7710024128098
+          ]
+        }
+      ],
+      "excludedCandidates": [
+        {
+          "page": 1,
+          "x": 282.033,
+          "y": 476.069,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 282.35,
+          "y": 495.061,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 282.35,
+          "y": 747.868,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 282.35,
+          "y": 767.282,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 300.076,
+          "y": 796.403,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 300.709,
+          "y": 524.183,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 301.658,
+          "y": 777.095,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 320.334,
+          "y": 757.153,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 320.756,
+          "y": 485.354,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 321.6,
+          "y": 738.161,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 339.748,
+          "y": 514.476,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.573,
+          "y": 1285.45,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.89,
+          "y": 1266.564,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.89,
+          "y": 994.343,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.89,
+          "y": 1013.335,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 286.148,
+          "y": 1295.263,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 304.718,
+          "y": 1256.857,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.773,
+          "y": 1275.638,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.14,
+          "y": 984.636,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.562,
+          "y": 1003.206,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.879,
+          "y": 1304.632,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.132,
+          "y": 1285.556,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.132,
+          "y": 1013.335,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.132,
+          "y": 1032.539,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.89,
+          "y": 1512.195,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.206,
+          "y": 1531.715,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.143,
+          "y": 1758.164,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.206,
+          "y": 1739.362,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 285.726,
+          "y": 1541.739,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 285.726,
+          "y": 1768.378,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 304.296,
+          "y": 1748.964,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.14,
+          "y": 1502.488,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.773,
+          "y": 1729.55,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.984,
+          "y": 1521.48,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.816,
+          "y": 1551.34,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.132,
+          "y": 1532.032,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.816,
+          "y": 1758.987,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.879,
+          "y": 1778.169,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.89,
+          "y": 2241.071,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.143,
+          "y": 2221.572,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.143,
+          "y": 2005.062,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.143,
+          "y": 2024.054,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 285.726,
+          "y": 2034.268,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.984,
+          "y": 1995.017,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.984,
+          "y": 2014.009,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.816,
+          "y": 2241.387,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.879,
+          "y": 2260.57,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.449,
+          "y": 2024.244,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.449,
+          "y": 2043.236,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 265.89,
+          "y": 2694.772,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.206,
+          "y": 2714.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.143,
+          "y": 2506.454,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 266.206,
+          "y": 2487.652,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 284.882,
+          "y": 2724.104,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 285.304,
+          "y": 2742.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 285.726,
+          "y": 2516.668,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.14,
+          "y": 2496.832,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.14,
+          "y": 2684.854,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 305.984,
+          "y": 2477.417,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 323.816,
+          "y": 2507.277,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.132,
+          "y": 2525.953,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.132,
+          "y": 2714.608,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 1,
+          "x": 324.449,
+          "y": 2733.284,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.573,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.573,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.206,
+          "y": 585.907,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.206,
+          "y": 604.899,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 285.135,
+          "y": 427.449,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 2,
+          "x": 285.726,
+          "y": 614.923,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 304.296,
+          "y": 595.509,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 304.718,
+          "y": 369.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.984,
+          "y": 575.672,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.816,
+          "y": 605.532,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.816,
+          "y": 624.524,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.449,
+          "y": 417.51,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 2,
+          "x": 324.132,
+          "y": 398.202,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 1376.904,
+          "y": 427.399,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 2,
+          "x": 265.573,
+          "y": 890.414,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.206,
+          "y": 870.789,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 1094.369,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.143,
+          "y": 1113.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 284.038,
+          "y": 919.641,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 2,
+          "x": 285.304,
+          "y": 1142.482,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 286.148,
+          "y": 899.594,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 304.296,
+          "y": 880.391,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.562,
+          "y": 1084.239,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.984,
+          "y": 1103.654,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.879,
+          "y": 909.596,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 2,
+          "x": 324.132,
+          "y": 890.52,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.449,
+          "y": 1113.888,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.449,
+          "y": 1132.88,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 399.468,
+          "y": 909.723,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 2,
+          "x": 265.573,
+          "y": 1360.153,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 1340.844,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.573,
+          "y": 1648.833,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.573,
+          "y": 1667.825,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 284.038,
+          "y": 1697.052,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 284.565,
+          "y": 1389.274,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 285.726,
+          "y": 1677.216,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 286.148,
+          "y": 1369.965,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 304.824,
+          "y": 1331.032,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.14,
+          "y": 1350.34,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 304.887,
+          "y": 1657.886,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.14,
+          "y": 1638.387,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.816,
+          "y": 1360.153,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.816,
+          "y": 1379.145,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.816,
+          "y": 1686.817,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.132,
+          "y": 1667.931,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 1914.406,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 1933.398,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 2241.071,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.143,
+          "y": 2221.572,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 284.038,
+          "y": 1962.942,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 304.296,
+          "y": 1923.691,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.14,
+          "y": 1904.277,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.816,
+          "y": 2241.387,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.879,
+          "y": 2260.57,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 323.879,
+          "y": 1952.897,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.132,
+          "y": 1933.398,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 2468.343,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.143,
+          "y": 2487.462,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 265.89,
+          "y": 2694.772,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 266.206,
+          "y": 2714.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 284.882,
+          "y": 2724.104,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 285.304,
+          "y": 2742.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 285.642,
+          "y": 2497.844,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.14,
+          "y": 2684.854,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.457,
+          "y": 2458.531,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 305.984,
+          "y": 2477.417,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.132,
+          "y": 2487.547,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.386,
+          "y": 2506.454,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.132,
+          "y": 2714.608,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 324.449,
+          "y": 2733.284,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 2,
+          "x": 1205.683,
+          "y": 2535.484,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 265.573,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.573,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.89,
+          "y": 585.591,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 566.725,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 285.135,
+          "y": 427.449,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 304.718,
+          "y": 369.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 556.68,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 575.672,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.449,
+          "y": 417.51,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 398.202,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 585.802,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.449,
+          "y": 604.899,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 889.771,
+          "y": 427.302,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 265.89,
+          "y": 1007.216,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 1026.335,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 818.877,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 837.869,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.882,
+          "y": 867.307,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 284.882,
+          "y": 1036.337,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.457,
+          "y": 1016.395,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 997.298,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 857.811,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 838.608,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 1045.833,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.449,
+          "y": 1026.524,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.573,
+          "y": 1272.789,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 1253.164,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.573,
+          "y": 1460.178,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.523,
+          "y": 1440.869,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.629,
+          "y": 1489.489,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.882,
+          "y": 1470.413,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.882,
+          "y": 1301.594,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 304.718,
+          "y": 1431.584,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.393,
+          "y": 1450.492,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 1242.929,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.879,
+          "y": 1291.971,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 1272.789,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 1460.495,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.449,
+          "y": 1479.803,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.573,
+          "y": 1910.924,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 1891.299,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.89,
+          "y": 1722.586,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 1703.72,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.565,
+          "y": 1940.046,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 285.726,
+          "y": 1732.926,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 304.296,
+          "y": 1900.901,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.14,
+          "y": 1713.09,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 1693.676,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 306.406,
+          "y": 1881.487,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 1742.528,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 1723.219,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 1910.924,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 1929.917,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 265.89,
+          "y": 2137.669,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 2156.999,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 2325.586,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 2344.578,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.629,
+          "y": 2185.867,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 285.135,
+          "y": 2167.128,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 284.882,
+          "y": 2374.016,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 285.726,
+          "y": 2354.602,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 304.296,
+          "y": 2335.187,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.393,
+          "y": 2127.878,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.773,
+          "y": 2146.743,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 2315.351,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 2345.211,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 2364.203,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.449,
+          "y": 2176.181,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 2157.506,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 457.71,
+          "y": 2184.728,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 2578.624,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 2597.616,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.143,
+          "y": 2766.013,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 266.206,
+          "y": 2785.195,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 285.304,
+          "y": 2626.4,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 303.874,
+          "y": 2587.994,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 304.718,
+          "y": 2568.58,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 2755.969,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 305.984,
+          "y": 2774.961,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 323.816,
+          "y": 2804.821,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 2785.512,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 3,
+          "x": 324.449,
+          "y": 2616.798,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 3,
+          "x": 324.132,
+          "y": 2597.49,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.573,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.573,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.637,
+          "y": 608.255,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.523,
+          "y": 588.756,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.882,
+          "y": 618.299,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.304,
+          "y": 637.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.135,
+          "y": 427.449,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 4,
+          "x": 304.718,
+          "y": 369.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.14,
+          "y": 579.26,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.457,
+          "y": 598.569,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.449,
+          "y": 417.51,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 398.202,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.449,
+          "y": 608.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.449,
+          "y": 627.69,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.89,
+          "y": 1140.372,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.143,
+          "y": 1159.279,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.206,
+          "y": 858.128,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.206,
+          "y": 877.12,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.038,
+          "y": 1169.071,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.304,
+          "y": 1188.063,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.726,
+          "y": 887.143,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.824,
+          "y": 1129.715,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.929,
+          "y": 1149.235,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.14,
+          "y": 867.307,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.773,
+          "y": 848.315,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 323.816,
+          "y": 896.745,
+          "reason": "beam-below-printed-bass-clef-melody"
+        },
+        {
+          "page": 4,
+          "x": 323.816,
+          "y": 877.753,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 1159.153,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 1178.145,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.573,
+          "y": 1632.373,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.573,
+          "y": 1651.365,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.89,
+          "y": 1389.38,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.143,
+          "y": 1408.709,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.565,
+          "y": 1661.495,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.304,
+          "y": 1680.592,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.887,
+          "y": 1641.426,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.14,
+          "y": 1622.561,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.14,
+          "y": 1379.461,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.984,
+          "y": 1398.665,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 1651.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.386,
+          "y": 1670.801,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.449,
+          "y": 1408.899,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.449,
+          "y": 1427.891,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.573,
+          "y": 1910.924,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.206,
+          "y": 1891.299,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.89,
+          "y": 2192.958,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.89,
+          "y": 2211.95,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.038,
+          "y": 2241.493,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.565,
+          "y": 1940.046,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.726,
+          "y": 2221.657,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.296,
+          "y": 1900.901,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.296,
+          "y": 2202.243,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.824,
+          "y": 1881.803,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.984,
+          "y": 2182.406,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 323.816,
+          "y": 1910.924,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 323.816,
+          "y": 1929.917,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 323.816,
+          "y": 2212.266,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 2230.942,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.573,
+          "y": 2700.997,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.89,
+          "y": 2681.688,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 265.89,
+          "y": 2461.38,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 266.206,
+          "y": 2442.071,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.46,
+          "y": 2711.654,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.629,
+          "y": 2730.308,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 284.882,
+          "y": 2490.501,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 285.726,
+          "y": 2471.087,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.718,
+          "y": 2452.095,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 305.14,
+          "y": 2432.258,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 304.887,
+          "y": 2691.058,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 2462.013,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.132,
+          "y": 2480.794,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.386,
+          "y": 2720.432,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 4,
+          "x": 324.449,
+          "y": 2701.63,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.637,
+          "y": 608.255,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.523,
+          "y": 588.756,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 378.576,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.206,
+          "y": 359.268,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.882,
+          "y": 407.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.882,
+          "y": 618.299,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 285.304,
+          "y": 637.291,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 285.726,
+          "y": 388.283,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 349.455,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 579.26,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.457,
+          "y": 598.569,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.449,
+          "y": 608.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.449,
+          "y": 627.69,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 838.608,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.143,
+          "y": 857.938,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 1123.701,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.143,
+          "y": 1142.82,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 285.726,
+          "y": 1153.033,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 828.901,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.457,
+          "y": 1132.88,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.984,
+          "y": 847.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.984,
+          "y": 1113.783,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 1162.635,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.132,
+          "y": 1143.326,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.449,
+          "y": 858.128,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.449,
+          "y": 877.12,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.206,
+          "y": 1373.447,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.206,
+          "y": 1392.439,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.206,
+          "y": 1583.627,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.206,
+          "y": 1602.619,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.882,
+          "y": 1632.057,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 285.304,
+          "y": 1402.041,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 304.296,
+          "y": 1593.228,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 304.824,
+          "y": 1574.131,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 1363.213,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.393,
+          "y": 1382.12,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 1603.252,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.132,
+          "y": 1622.561,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.132,
+          "y": 1411.748,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.449,
+          "y": 1392.439,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 1904.277,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 266.206,
+          "y": 1884.969,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 2095.465,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 2114.457,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.038,
+          "y": 2125.008,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.565,
+          "y": 2143.895,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.882,
+          "y": 1933.398,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 304.824,
+          "y": 1875.472,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 304.887,
+          "y": 2104.834,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 2085.969,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 1904.594,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 1923.586,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.132,
+          "y": 2115.09,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.386,
+          "y": 2134.209,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.573,
+          "y": 2607.302,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 2626.611,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.637,
+          "y": 2416.305,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 265.89,
+          "y": 2396.806,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.565,
+          "y": 2445.236,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 284.882,
+          "y": 2636.74,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 285.304,
+          "y": 2655.521,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 286.148,
+          "y": 2425.928,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 2387.31,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.393,
+          "y": 2406.429,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.14,
+          "y": 2597.49,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 305.984,
+          "y": 2616.693,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 2416.115,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 323.816,
+          "y": 2435.107,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.386,
+          "y": 2645.73,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 5,
+          "x": 324.449,
+          "y": 2626.928,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 378.576,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.206,
+          "y": 359.268,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.143,
+          "y": 573.056,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.206,
+          "y": 592.238,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 284.882,
+          "y": 407.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.726,
+          "y": 388.283,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.726,
+          "y": 602.261,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 349.455,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 582.425,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.457,
+          "y": 563.117,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 592.871,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 611.863,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.573,
+          "y": 890.414,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.206,
+          "y": 870.789,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.143,
+          "y": 1146.618,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.143,
+          "y": 1165.61,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 284.038,
+          "y": 919.641,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.198,
+          "y": 1175.929,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 286.148,
+          "y": 899.594,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 304.296,
+          "y": 880.391,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 860.976,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.984,
+          "y": 1136.573,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.879,
+          "y": 909.596,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.132,
+          "y": 890.52,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.132,
+          "y": 1165.483,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.449,
+          "y": 1184.792,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 1395.921,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.143,
+          "y": 1415.04,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 1706.759,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.206,
+          "y": 1687.45,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 283.616,
+          "y": 1736.513,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 284.882,
+          "y": 1425.043,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 1386.003,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.984,
+          "y": 1404.995,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.984,
+          "y": 1677.216,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 1434.855,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.449,
+          "y": 1415.23,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 1707.076,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.132,
+          "y": 1725.751,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 1936.564,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 266.206,
+          "y": 1955.872,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 2167.002,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 2185.783,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.304,
+          "y": 2195.912,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.726,
+          "y": 1965.896,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 304.296,
+          "y": 1946.482,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 1927.068,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.773,
+          "y": 2157.506,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.984,
+          "y": 2176.076,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 1956.506,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.879,
+          "y": 1975.688,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 2205.935,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.449,
+          "y": 2186.31,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.573,
+          "y": 2711.126,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 2691.817,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 2416.221,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 265.89,
+          "y": 2435.424,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 284.249,
+          "y": 2739.931,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 284.565,
+          "y": 2445.236,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.135,
+          "y": 2464.672,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 285.726,
+          "y": 2720.517,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 304.296,
+          "y": 2701.102,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 2406.513,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.773,
+          "y": 2425.295,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 305.14,
+          "y": 2681.688,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 2711.126,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 323.816,
+          "y": 2730.118,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.132,
+          "y": 2455.049,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 6,
+          "x": 324.386,
+          "y": 2435.55,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.89,
+          "y": 378.576,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 359.268,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 627.69,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 646.682,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.038,
+          "y": 676.542,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.882,
+          "y": 407.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 285.726,
+          "y": 388.283,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 305.14,
+          "y": 349.455,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.816,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.816,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.879,
+          "y": 666.497,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 647.632,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.573,
+          "y": 854.962,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.89,
+          "y": 873.638,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.573,
+          "y": 1152.506,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 1132.88,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.038,
+          "y": 884.189,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.038,
+          "y": 1181.732,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.629,
+          "y": 903.266,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.718,
+          "y": 1142.904,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 305.14,
+          "y": 845.15,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 305.14,
+          "y": 864.142,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 874.271,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.449,
+          "y": 893.58,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 1153.033,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.386,
+          "y": 1171.941,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.637,
+          "y": 1395.795,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.89,
+          "y": 1376.718,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 1664.66,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 1683.652,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.038,
+          "y": 1424.832,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.882,
+          "y": 1713.09,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 286.148,
+          "y": 1694.098,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.296,
+          "y": 1674.261,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.824,
+          "y": 1366.483,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.887,
+          "y": 1385.666,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.816,
+          "y": 1684.285,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 1703.594,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 1395.921,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 1414.913,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.573,
+          "y": 1910.924,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 1891.299,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.573,
+          "y": 2124.902,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.573,
+          "y": 2143.895,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.565,
+          "y": 1940.046,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.629,
+          "y": 2173.206,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.296,
+          "y": 1900.901,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.718,
+          "y": 2115.301,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 305.393,
+          "y": 2134.209,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.824,
+          "y": 1881.803,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.816,
+          "y": 1910.924,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.816,
+          "y": 1929.917,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 323.816,
+          "y": 2143.895,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 2163.203,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.89,
+          "y": 2455.049,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 2435.74,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 265.89,
+          "y": 2746.261,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 266.206,
+          "y": 2726.953,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 284.882,
+          "y": 2484.17,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 286.148,
+          "y": 2756.391,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.296,
+          "y": 2736.554,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 304.824,
+          "y": 2426.244,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 2455.049,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 2474.041,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 2746.895,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 7,
+          "x": 324.132,
+          "y": 2765.887,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 265.89,
+          "y": 378.576,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 266.206,
+          "y": 359.268,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 266.143,
+          "y": 660.42,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 266.206,
+          "y": 679.602,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 284.882,
+          "y": 407.698,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 285.726,
+          "y": 388.283,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 285.726,
+          "y": 689.625,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 305.14,
+          "y": 349.455,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 305.984,
+          "y": 650.375,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 305.984,
+          "y": 669.367,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 323.816,
+          "y": 378.893,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 323.816,
+          "y": 397.885,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 323.816,
+          "y": 699.227,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 324.132,
+          "y": 679.918,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 265.89,
+          "y": 932.513,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 266.143,
+          "y": 951.632,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 266.143,
+          "y": 1165.61,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 266.206,
+          "y": 1184.792,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 285.726,
+          "y": 961.846,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 285.726,
+          "y": 1194.816,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 304.296,
+          "y": 1175.402,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 305.14,
+          "y": 942.009,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 305.457,
+          "y": 922.701,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 305.457,
+          "y": 1155.671,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 323.816,
+          "y": 971.447,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 324.132,
+          "y": 952.139,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 323.816,
+          "y": 1185.425,
+          "reason": "clef-key-time-signature-area"
+        },
+        {
+          "page": 8,
+          "x": 323.879,
+          "y": 1204.607,
+          "reason": "clef-key-time-signature-area"
+        }
+      ],
+      "notation": [
+        {
+          "page": 1,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "F"
+              ]
+            ]
+          },
+          "octaves": []
+        },
+        {
+          "page": 2,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "F"
+              ],
+              [
+                1465.3612575531006,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "G"
+              ],
+              [
+                979.2815208435059,
+                "F"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "F"
+              ]
+            ]
+          },
+          "octaves": []
+        },
+        {
+          "page": 3,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "10": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "11": [
+              [
+                0,
+                "F"
+              ]
+            ]
+          },
+          "octaves": []
+        },
+        {
+          "page": 4,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "F"
+              ],
+              [
+                569.7637939453125,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "F"
+              ]
+            ]
+          },
+          "octaves": [
+            [
+              8,
+              373.9074897766113,
+              1842.8297710418701,
+              12
+            ]
+          ]
+        },
+        {
+          "page": 5,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "G"
+              ]
+            ]
+          },
+          "octaves": [
+            [
+              0,
+              373.9074897766113,
+              1538.3622436523438,
+              12
+            ],
+            [
+              0,
+              2033.344539642334,
+              2279.05517578125,
+              12
+            ],
+            [
+              2,
+              373.9074897766113,
+              610.7155666351318,
+              12
+            ],
+            [
+              2,
+              1162.6742420196533,
+              1379.8966884613037,
+              12
+            ],
+            [
+              4,
+              373.9074897766113,
+              1739.5600833892822,
+              12
+            ],
+            [
+              6,
+              373.9074897766113,
+              1810.7805576324463,
+              12
+            ],
+            [
+              8,
+              373.9074897766113,
+              1741.3405952453613,
+              12
+            ]
+          ]
+        },
+        {
+          "page": 6,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "F"
+              ]
+            ]
+          },
+          "octaves": [
+            [
+              0,
+              373.9074897766113,
+              2095.6624546051025,
+              12
+            ]
+          ]
+        },
+        {
+          "page": 7,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "4": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "5": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "6": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "7": [
+              [
+                0,
+                "F"
+              ]
+            ],
+            "8": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "9": [
+              [
+                0,
+                "F"
+              ]
+            ]
+          },
+          "octaves": []
+        },
+        {
+          "page": 8,
+          "clefs": {
+            "0": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "1": [
+              [
+                0,
+                "F"
+              ],
+              [
+                1673.6811447143555,
+                "G"
+              ]
+            ],
+            "2": [
+              [
+                0,
+                "G"
+              ]
+            ],
+            "3": [
+              [
+                0,
+                "G"
+              ]
+            ]
+          },
+          "octaves": []
+        }
+      ]
+    },
+    {
+      "measure": 13,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 14,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 15,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 16,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 17,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 18,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 19,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 20,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 21,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 22,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1253.48,
+          "y": 2310.076,
+          "kind": "filled",
+          "confidence": 0.6780335307121277,
+          "staff": 7,
+          "duration": 0.5,
+          "direction": "up",
+          "stem": 1264.9,
+          "tip": 2201.820528157552,
+          "ox": 1241.8948028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 23,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1849.833,
+          "y": 2310.076,
+          "kind": "filled",
+          "confidence": 0.6756178140640259,
+          "staff": 7,
+          "duration": 0.5,
+          "direction": "up",
+          "stem": 1861.2,
+          "tip": 2229.675646972656,
+          "ox": 1838.2478028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 24,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 25,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 26,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 27,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 28,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 29,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 30,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 31,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 32,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 33,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 34,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 35,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 36,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 37,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 38,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        2,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 39,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 40,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 41,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 42,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1889.084,
+          "y": 1227.524,
+          "kind": "filled",
+          "confidence": 0.6623566150665283,
+          "staff": 3,
+          "duration": 0.5,
+          "direction": "up",
+          "stem": 1900.5,
+          "tip": 1119.2693196614582,
+          "ox": 1877.4988028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 43,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 44,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 45,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 46,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 47,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 48,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 49,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 50,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 51,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1866.293,
+          "y": 2769.685,
+          "kind": "filled",
+          "confidence": 0.6829049587249756,
+          "staff": 9,
+          "duration": 0.5,
+          "direction": "up",
+          "stem": 1877.7,
+          "tip": 2661.4299886067706,
+          "ox": 1854.7078028564451,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 52,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 53,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 54,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 55,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 56,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 57,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.5,
+        3,
+        3.25,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 58,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.5,
+        3,
+        3.25,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1738.413,
+          "y": 1585.843,
+          "kind": "filled",
+          "confidence": 0.7085686922073364,
+          "staff": 5,
+          "duration": 0.5,
+          "direction": "down",
+          "stem": 1727.0,
+          "tip": 1654.847285970052,
+          "ox": 1726.8278028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 59,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 60,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 61,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.5,
+        3,
+        3.25,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 62,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.5,
+        3,
+        3.25,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1738.413,
+          "y": 2608.885,
+          "kind": "filled",
+          "confidence": 0.6724451780319214,
+          "staff": 9,
+          "duration": 0.5,
+          "direction": "down",
+          "stem": 1727.0,
+          "tip": 2677.8898315429688,
+          "ox": 1726.7328422241212,
+          "w": 23.36031555175781,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 63,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        1.75,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 64,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 65,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 66,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1766.268,
+          "y": 1233.855,
+          "kind": "filled",
+          "confidence": 0.6731674075126648,
+          "staff": 3,
+          "duration": 0.5,
+          "direction": "up",
+          "stem": 1777.7,
+          "tip": 1125.600028483073,
+          "ox": 1754.6828028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 67,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 68,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 69,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 70,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 71,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 852.113,
+          "y": 2778.548,
+          "kind": "filled",
+          "confidence": 0.6623567342758179,
+          "staff": 9,
+          "duration": 0.5,
+          "direction": "up",
+          "stem": 863.5,
+          "tip": 2670.292980957031,
+          "ox": 840.4329033313492,
+          "w": 23.360193337301798,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 72,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 73,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 74,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1273.739,
+          "y": 543.808,
+          "kind": "filled",
+          "confidence": 0.6839799284934998,
+          "staff": 1,
+          "duration": 0.5,
+          "direction": "down",
+          "stem": 1262.3,
+          "tip": 669.7889933268228,
+          "ox": 1262.1538028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 75,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 76,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 77,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 78,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1273.739,
+          "y": 1580.778,
+          "kind": "filled",
+          "confidence": 0.6721982955932617,
+          "staff": 5,
+          "duration": 0.25,
+          "direction": "down",
+          "stem": 1262.3,
+          "tip": 1775.130753580729,
+          "ox": 1262.1538028564453,
+          "w": 23.17039428710937,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 79,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 80,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 81,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 82,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        2.75,
+        3,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 83,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.25,
+        3.5,
+        3.75
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 84,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5
+      ],
+      "excludedCandidates": [
+        {
+          "x": 1385.95,
+          "y": 689.572,
+          "kind": "filled",
+          "confidence": 0.78,
+          "staff": 1,
+          "duration": 0.25,
+          "direction": "up",
+          "stem": 1397.8,
+          "tip": 610.2803304036458,
+          "ox": 1374.174881591797,
+          "w": 23.55023681640625,
+          "c": "",
+          "grace": false
+        }
+      ]
+    },
+    {
+      "measure": 85,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        2
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 86,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        2
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 87,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0,
+        2
+      ],
+      "excludedCandidates": []
+    },
+    {
+      "measure": 88,
+      "reason": "按原谱左手音型确定拍点，再对齐右手独立声部；音高和漏音仍待复核。",
+      "bassOnsets": [
+        0
+      ],
+      "excludedCandidates": []
+    }
+  ],
+  "manualNoteheadReadings": [
+    {
+      "page": 2,
+      "measure": 17,
+      "hand": "R",
+      "x": 1617.044,
+      "y": 832.646,
+      "staffStep": 11,
+      "kind": "hollow"
+    },
+    {
+      "page": 2,
+      "measure": 24,
+      "hand": "R",
+      "x": 399.377,
+      "y": 2555.707,
+      "staffStep": 0,
+      "kind": "whole"
+    },
+    {
+      "page": 3,
+      "measure": 32,
+      "hand": "R",
+      "x": 399.377,
+      "y": 1722.903,
+      "staffStep": 5,
+      "kind": "whole"
+    },
+    {
+      "page": 5,
+      "measure": 52,
+      "hand": "R",
+      "x": 399.377,
+      "y": 359.426,
+      "staffStep": 9,
+      "kind": "whole"
+    },
+    {
+      "page": 5,
+      "measure": 52,
+      "hand": "R",
+      "x": 399.377,
+      "y": 427.006,
+      "staffStep": 2,
+      "kind": "whole"
+    },
+    {
+      "page": 5,
+      "measure": 56,
+      "hand": "R",
+      "x": 1360.922,
+      "y": 857.495,
+      "staffStep": 7,
+      "kind": "whole"
+    },
+    {
+      "page": 5,
+      "measure": 56,
+      "hand": "R",
+      "x": 1360.922,
+      "y": 926.183,
+      "staffStep": 0,
+      "kind": "whole"
+    },
+    {
+      "page": 7,
+      "measure": 76,
+      "hand": "R",
+      "x": 1430.378,
+      "y": 873.875,
+      "staffStep": 7,
+      "kind": "whole"
+    },
+    {
+      "page": 7,
+      "measure": 76,
+      "hand": "R",
+      "x": 1430.378,
+      "y": 942.009,
+      "staffStep": 0,
+      "kind": "whole"
+    },
+    {
+      "page": 8,
+      "measure": 84,
+      "hand": "R",
+      "x": 1174.256,
+      "y": 311.154,
+      "staffStep": 14,
+      "kind": "whole"
+    },
+    {
+      "page": 8,
+      "measure": 84,
+      "hand": "R",
+      "x": 1174.256,
+      "y": 378.735,
+      "staffStep": 7,
+      "kind": "whole"
+    },
+    {
+      "page": 8,
+      "measure": 88,
+      "hand": "R",
+      "x": 1504.176,
+      "y": 951.743,
+      "staffStep": 7,
+      "kind": "whole"
+    },
+    {
+      "page": 8,
+      "measure": 88,
+      "hand": "R",
+      "x": 1504.176,
+      "y": 1000.41,
+      "staffStep": 2,
+      "kind": "whole"
+    },
+    {
+      "page": 8,
+      "measure": 88,
+      "hand": "L",
+      "x": 1504.176,
+      "y": 1252.847,
+      "staffStep": 0,
+      "kind": "whole"
+    },
+    {
+      "page": 8,
+      "measure": 88,
+      "hand": "L",
+      "x": 1504.176,
+      "y": 1320.428,
+      "staffStep": -7,
+      "kind": "whole"
+    }
+  ],
+  "sourceGlyphCount": null,
+  "manuallyReadMeasures": 12,
+  "visualReadings": [
+    {
+      "id": 0,
+      "page": 1,
+      "measure": 1,
+      "x": 462.9330825805664,
+      "y": 767.4006099700928,
+      "midi": 52,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 1,
+      "page": 1,
+      "measure": 1,
+      "x": 525.250997543335,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 2,
+      "page": 1,
+      "measure": 1,
+      "x": 587.5689125061035,
+      "y": 699.7411594390869,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 3,
+      "page": 1,
+      "measure": 1,
+      "x": 648.106315612793,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 4,
+      "page": 1,
+      "measure": 1,
+      "x": 710.4242305755615,
+      "y": 778.0836811065674,
+      "midi": 51,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 5,
+      "page": 1,
+      "measure": 1,
+      "x": 770.961633682251,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 6,
+      "page": 1,
+      "measure": 1,
+      "x": 833.2795486450195,
+      "y": 699.7411594390869,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 7,
+      "page": 1,
+      "measure": 1,
+      "x": 895.5974636077881,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 8,
+      "page": 1,
+      "measure": 2,
+      "x": 997.0866394042969,
+      "y": 786.9862403869629,
+      "midi": 49,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 9,
+      "page": 1,
+      "measure": 2,
+      "x": 1057.6240425109863,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 10,
+      "page": 1,
+      "measure": 2,
+      "x": 1119.9419574737549,
+      "y": 699.7411594390869,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 11,
+      "page": 1,
+      "measure": 2,
+      "x": 1184.0403842926025,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 12,
+      "page": 1,
+      "measure": 2,
+      "x": 1246.358299255371,
+      "y": 797.6693115234375,
+      "midi": 47,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 13,
+      "page": 1,
+      "measure": 2,
+      "x": 1312.2372379302979,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 14,
+      "page": 1,
+      "measure": 2,
+      "x": 1374.5551528930664,
+      "y": 699.7411594390869,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 15,
+      "page": 1,
+      "measure": 2,
+      "x": 1435.0925559997559,
+      "y": 786.9862403869629,
+      "midi": 49,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 16,
+      "page": 1,
+      "measure": 2,
+      "x": 1492.068935394287,
+      "y": 797.6693115234375,
+      "midi": 47,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 17,
+      "page": 1,
+      "measure": 3,
+      "x": 1584.6555519104004,
+      "y": 806.571870803833,
+      "midi": 45,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 18,
+      "page": 1,
+      "measure": 3,
+      "x": 1645.1929550170898,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 19,
+      "page": 1,
+      "measure": 3,
+      "x": 1709.2913818359375,
+      "y": 699.7411594390869,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 20,
+      "page": 1,
+      "measure": 3,
+      "x": 1771.609296798706,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 21,
+      "page": 1,
+      "measure": 3,
+      "x": 1833.9272117614746,
+      "y": 797.6693115234375,
+      "midi": 47,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 22,
+      "page": 1,
+      "measure": 3,
+      "x": 1896.2451267242432,
+      "y": 728.2293491363525,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 23,
+      "page": 1,
+      "measure": 3,
+      "x": 1958.5630416870117,
+      "y": 699.7411594390869,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 24,
+      "page": 1,
+      "measure": 3,
+      "x": 2017.319932937622,
+      "y": 797.6693115234375,
+      "midi": 47,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 25,
+      "page": 1,
+      "measure": 3,
+      "x": 2076.0768241882324,
+      "y": 786.9862403869629,
+      "midi": 49,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 26,
+      "page": 1,
+      "measure": 4,
+      "x": 398.83465576171875,
+      "y": 1285.5295600891113,
+      "midi": 52,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 27,
+      "page": 1,
+      "measure": 4,
+      "x": 466.4941062927246,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 28,
+      "page": 1,
+      "measure": 4,
+      "x": 532.3730449676514,
+      "y": 1217.8701095581055,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 29,
+      "page": 1,
+      "measure": 4,
+      "x": 600.0324954986572,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 30,
+      "page": 1,
+      "measure": 4,
+      "x": 665.911434173584,
+      "y": 1285.5295600891113,
+      "midi": 52,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 31,
+      "page": 1,
+      "measure": 4,
+      "x": 733.5708847045898,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 32,
+      "page": 1,
+      "measure": 4,
+      "x": 799.4498233795166,
+      "y": 1217.8701095581055,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 33,
+      "page": 1,
+      "measure": 4,
+      "x": 865.3287620544434,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 34,
+      "page": 1,
+      "measure": 5,
+      "x": 977.5010089874268,
+      "y": 1062.9655780792236,
+      "midi": 68,
+      "beat": 0,
+      "duration": 2,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 35,
+      "page": 1,
+      "measure": 5,
+      "x": 1244.577787399292,
+      "y": 1071.8681373596191,
+      "midi": 66,
+      "beat": 2,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 36,
+      "page": 1,
+      "measure": 5,
+      "x": 1310.4567260742188,
+      "y": 1062.9655780792236,
+      "midi": 68,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 37,
+      "page": 1,
+      "measure": 5,
+      "x": 1376.3356647491455,
+      "y": 1043.3799476623535,
+      "midi": 71,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 38,
+      "page": 1,
+      "measure": 5,
+      "x": 1442.2146034240723,
+      "y": 1062.9655780792236,
+      "midi": 68,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 39,
+      "page": 1,
+      "measure": 5,
+      "x": 977.5010089874268,
+      "y": 1285.5295600891113,
+      "midi": 52,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 40,
+      "page": 1,
+      "measure": 5,
+      "x": 1043.3799476623535,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 41,
+      "page": 1,
+      "measure": 5,
+      "x": 1109.2588863372803,
+      "y": 1217.8701095581055,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 42,
+      "page": 1,
+      "measure": 5,
+      "x": 1175.137825012207,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 43,
+      "page": 1,
+      "measure": 5,
+      "x": 1244.577787399292,
+      "y": 1294.4321193695068,
+      "midi": 51,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 44,
+      "page": 1,
+      "measure": 5,
+      "x": 1310.4567260742188,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 45,
+      "page": 1,
+      "measure": 5,
+      "x": 1376.3356647491455,
+      "y": 1217.8701095581055,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 46,
+      "page": 1,
+      "measure": 5,
+      "x": 1442.2146034240723,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 47,
+      "page": 1,
+      "measure": 6,
+      "x": 1552.6063385009766,
+      "y": 1062.9655780792236,
+      "midi": 68,
+      "beat": 0,
+      "duration": 2,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 48,
+      "page": 1,
+      "measure": 6,
+      "x": 1817.9026050567627,
+      "y": 1071.8681373596191,
+      "midi": 66,
+      "beat": 2,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 49,
+      "page": 1,
+      "measure": 6,
+      "x": 1883.7815437316895,
+      "y": 1062.9655780792236,
+      "midi": 68,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 50,
+      "page": 1,
+      "measure": 6,
+      "x": 1949.6604824066162,
+      "y": 1043.3799476623535,
+      "midi": 71,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 51,
+      "page": 1,
+      "measure": 6,
+      "x": 2017.319932937622,
+      "y": 1062.9655780792236,
+      "midi": 68,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 52,
+      "page": 1,
+      "measure": 6,
+      "x": 2076.0768241882324,
+      "y": 1071.8681373596191,
+      "midi": 66,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 53,
+      "page": 1,
+      "measure": 6,
+      "x": 1552.6063385009766,
+      "y": 1305.1151905059814,
+      "midi": 49,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 54,
+      "page": 1,
+      "measure": 6,
+      "x": 1620.2657890319824,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 55,
+      "page": 1,
+      "measure": 6,
+      "x": 1686.1447277069092,
+      "y": 1217.8701095581055,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 56,
+      "page": 1,
+      "measure": 6,
+      "x": 1752.023666381836,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 57,
+      "page": 1,
+      "measure": 6,
+      "x": 1817.9026050567627,
+      "y": 1315.798261642456,
+      "midi": 47,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 58,
+      "page": 1,
+      "measure": 6,
+      "x": 1883.7815437316895,
+      "y": 1246.358299255371,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 59,
+      "page": 1,
+      "measure": 6,
+      "x": 1949.6604824066162,
+      "y": 1217.8701095581055,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 60,
+      "page": 1,
+      "measure": 6,
+      "x": 2017.319932937622,
+      "y": 1305.1151905059814,
+      "midi": 49,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 61,
+      "page": 1,
+      "measure": 6,
+      "x": 2076.0768241882324,
+      "y": 1315.798261642456,
+      "midi": 47,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 62,
+      "page": 1,
+      "measure": 7,
+      "x": 398.83465576171875,
+      "y": 1589.9970874786377,
+      "midi": 66,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 63,
+      "page": 1,
+      "measure": 7,
+      "x": 494.98229598999023,
+      "y": 1598.8996467590332,
+      "midi": 64,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 64,
+      "page": 1,
+      "measure": 7,
+      "x": 790.5472640991211,
+      "y": 1598.8996467590332,
+      "midi": 64,
+      "beat": 2,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 65,
+      "page": 1,
+      "measure": 7,
+      "x": 886.6949043273926,
+      "y": 1618.4852771759033,
+      "midi": 61,
+      "beat": 2.5,
+      "duration": 0.25,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 66,
+      "page": 1,
+      "measure": 7,
+      "x": 984.6230564117432,
+      "y": 1598.8996467590332,
+      "midi": 64,
+      "beat": 2.75,
+      "duration": 0.25,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 67,
+      "page": 1,
+      "measure": 7,
+      "x": 1059.4045543670654,
+      "y": 1598.8996467590332,
+      "midi": 64,
+      "beat": 3,
+      "duration": 0.5,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 68,
+      "page": 1,
+      "measure": 7,
+      "x": 1148.4301471710205,
+      "y": 1618.4852771759033,
+      "midi": 61,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 69,
+      "page": 1,
+      "measure": 7,
+      "x": 1226.772668838501,
+      "y": 1598.8996467590332,
+      "midi": 64,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 70,
+      "page": 1,
+      "measure": 7,
+      "x": 398.83465576171875,
+      "y": 1796.5364627838135,
+      "midi": 45,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 71,
+      "page": 1,
+      "measure": 7,
+      "x": 494.98229598999023,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 72,
+      "page": 1,
+      "measure": 7,
+      "x": 594.6909599304199,
+      "y": 1689.7057514190674,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 73,
+      "page": 1,
+      "measure": 7,
+      "x": 690.8386001586914,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 74,
+      "page": 1,
+      "measure": 7,
+      "x": 790.5472640991211,
+      "y": 1787.633903503418,
+      "midi": 47,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 75,
+      "page": 1,
+      "measure": 7,
+      "x": 886.6949043273926,
+      "y": 1748.4626426696777,
+      "midi": 54,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 76,
+      "page": 1,
+      "measure": 7,
+      "x": 1059.4045543670654,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 3.0,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 77,
+      "page": 1,
+      "measure": 8,
+      "x": 1349.627986907959,
+      "y": 1598.8996467590332,
+      "midi": 64,
+      "beat": 0,
+      "duration": 4,
+      "clef": "G",
+      "octaveShift": 0
+    },
+    {
+      "id": 78,
+      "page": 1,
+      "measure": 8,
+      "x": 1349.627986907959,
+      "y": 1757.3652019500732,
+      "midi": 52,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 79,
+      "page": 1,
+      "measure": 8,
+      "x": 1445.7756271362305,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 80,
+      "page": 1,
+      "measure": 8,
+      "x": 1543.703779220581,
+      "y": 1689.7057514190674,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 81,
+      "page": 1,
+      "measure": 8,
+      "x": 1641.6319313049316,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 82,
+      "page": 1,
+      "measure": 8,
+      "x": 1739.5600833892822,
+      "y": 1757.3652019500732,
+      "midi": 52,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 83,
+      "page": 1,
+      "measure": 8,
+      "x": 1837.4882354736328,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 84,
+      "page": 1,
+      "measure": 8,
+      "x": 1935.4163875579834,
+      "y": 1689.7057514190674,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 85,
+      "page": 1,
+      "measure": 8,
+      "x": 2033.344539642334,
+      "y": 1718.193941116333,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 86,
+      "page": 1,
+      "measure": 9,
+      "x": 430.8838691711426,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 87,
+      "page": 1,
+      "measure": 9,
+      "x": 509.22639083862305,
+      "y": 2004.8563499450684,
+      "midi": 56,
+      "beat": 0.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 88,
+      "page": 1,
+      "measure": 9,
+      "x": 567.9832820892334,
+      "y": 2004.8563499450684,
+      "midi": 56,
+      "beat": 0.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 89,
+      "page": 1,
+      "measure": 9,
+      "x": 632.081708908081,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 1.0,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 90,
+      "page": 1,
+      "measure": 9,
+      "x": 696.1801357269287,
+      "y": 2004.8563499450684,
+      "midi": 56,
+      "beat": 1.25,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 91,
+      "page": 1,
+      "measure": 9,
+      "x": 758.4980506896973,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 92,
+      "page": 1,
+      "measure": 9,
+      "x": 820.8159656524658,
+      "y": 2004.8563499450684,
+      "midi": 56,
+      "beat": 1.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 93,
+      "page": 1,
+      "measure": 9,
+      "x": 884.9143924713135,
+      "y": 1974.5876483917236,
+      "midi": 61,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 94,
+      "page": 1,
+      "measure": 9,
+      "x": 961.4764022827148,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 95,
+      "page": 1,
+      "measure": 9,
+      "x": 1034.477388381958,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 3.0,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 96,
+      "page": 1,
+      "measure": 9,
+      "x": 1100.3563270568848,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 3.25,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 97,
+      "page": 1,
+      "measure": 9,
+      "x": 1159.1132183074951,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 98,
+      "page": 1,
+      "measure": 9,
+      "x": 1223.2116451263428,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 99,
+      "page": 1,
+      "measure": 9,
+      "x": 430.8838691711426,
+      "y": 2239.8839149475098,
+      "midi": 52,
+      "beat": 0,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 100,
+      "page": 1,
+      "measure": 9,
+      "x": 632.081708908081,
+      "y": 2172.224464416504,
+      "midi": 64,
+      "beat": 1,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 101,
+      "page": 1,
+      "measure": 9,
+      "x": 884.9143924713135,
+      "y": 2250.5669860839844,
+      "midi": 51,
+      "beat": 2,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 102,
+      "page": 1,
+      "measure": 9,
+      "x": 1034.477388381958,
+      "y": 2172.224464416504,
+      "midi": 64,
+      "beat": 3,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 103,
+      "page": 1,
+      "measure": 10,
+      "x": 1328.2618446350098,
+      "y": 1974.5876483917236,
+      "midi": 61,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 104,
+      "page": 1,
+      "measure": 10,
+      "x": 1408.3848781585693,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 105,
+      "page": 1,
+      "measure": 10,
+      "x": 1472.483304977417,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 1.0,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 106,
+      "page": 1,
+      "measure": 10,
+      "x": 1538.3622436523438,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 1.25,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 107,
+      "page": 1,
+      "measure": 10,
+      "x": 1602.4606704711914,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 108,
+      "page": 1,
+      "measure": 10,
+      "x": 1662.9980735778809,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 1.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 109,
+      "page": 1,
+      "measure": 10,
+      "x": 1727.0965003967285,
+      "y": 2004.8563499450684,
+      "midi": 56,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 110,
+      "page": 1,
+      "measure": 10,
+      "x": 1801.8779983520508,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 111,
+      "page": 1,
+      "measure": 10,
+      "x": 1878.4400081634521,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 3.0,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 112,
+      "page": 1,
+      "measure": 10,
+      "x": 1938.9774112701416,
+      "y": 1983.4902076721191,
+      "midi": 59,
+      "beat": 3.25,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 113,
+      "page": 1,
+      "measure": 10,
+      "x": 2001.2953262329102,
+      "y": 2013.7589092254639,
+      "midi": 54,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 114,
+      "page": 1,
+      "measure": 10,
+      "x": 2065.393753051758,
+      "y": 2024.4419803619385,
+      "midi": 52,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 115,
+      "page": 1,
+      "measure": 10,
+      "x": 1328.2618446350098,
+      "y": 2259.46954536438,
+      "midi": 49,
+      "beat": 0,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 116,
+      "page": 1,
+      "measure": 10,
+      "x": 1472.483304977417,
+      "y": 2172.224464416504,
+      "midi": 64,
+      "beat": 1,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 117,
+      "page": 1,
+      "measure": 10,
+      "x": 1727.0965003967285,
+      "y": 2270.1526165008545,
+      "midi": 47,
+      "beat": 2,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 118,
+      "page": 1,
+      "measure": 10,
+      "x": 1878.4400081634521,
+      "y": 2172.224464416504,
+      "midi": 64,
+      "beat": 3,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 119,
+      "page": 1,
+      "measure": 10,
+      "x": 2001.2953262329102,
+      "y": 2202.4931659698486,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 120,
+      "page": 1,
+      "measure": 11,
+      "x": 398.83465576171875,
+      "y": 2496.2776222229004,
+      "midi": 54,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 121,
+      "page": 1,
+      "measure": 11,
+      "x": 489.64076042175293,
+      "y": 2505.180181503296,
+      "midi": 52,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 122,
+      "page": 1,
+      "measure": 11,
+      "x": 580.4468650817871,
+      "y": 2505.180181503296,
+      "midi": 52,
+      "beat": 1.0,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 123,
+      "page": 1,
+      "measure": 11,
+      "x": 671.2529697418213,
+      "y": 2505.180181503296,
+      "midi": 52,
+      "beat": 1.25,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 124,
+      "page": 1,
+      "measure": 11,
+      "x": 762.0590744018555,
+      "y": 2505.180181503296,
+      "midi": 52,
+      "beat": 1.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 125,
+      "page": 1,
+      "measure": 11,
+      "x": 852.8651790618896,
+      "y": 2505.180181503296,
+      "midi": 52,
+      "beat": 1.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 126,
+      "page": 1,
+      "measure": 11,
+      "x": 943.6712837219238,
+      "y": 2496.2776222229004,
+      "midi": 54,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 127,
+      "page": 1,
+      "measure": 11,
+      "x": 1036.257900238037,
+      "y": 2496.2776222229004,
+      "midi": 54,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 128,
+      "page": 1,
+      "measure": 11,
+      "x": 1127.0640048980713,
+      "y": 2496.2776222229004,
+      "midi": 54,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 129,
+      "page": 1,
+      "measure": 11,
+      "x": 1214.3090858459473,
+      "y": 2505.180181503296,
+      "midi": 52,
+      "beat": 3.5,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 130,
+      "page": 1,
+      "measure": 11,
+      "x": 1283.7490482330322,
+      "y": 2487.375062942505,
+      "midi": 56,
+      "beat": 3.75,
+      "duration": 0.25,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 131,
+      "page": 1,
+      "measure": 11,
+      "x": 398.83465576171875,
+      "y": 2754.45184135437,
+      "midi": 45,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 132,
+      "page": 1,
+      "measure": 11,
+      "x": 489.64076042175293,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 133,
+      "page": 1,
+      "measure": 11,
+      "x": 580.4468650817871,
+      "y": 2645.840618133545,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 134,
+      "page": 1,
+      "measure": 11,
+      "x": 671.2529697418213,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 135,
+      "page": 1,
+      "measure": 11,
+      "x": 852.8651790618896,
+      "y": 2743.7687702178955,
+      "midi": 47,
+      "beat": 2.0,
+      "duration": 1,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 136,
+      "page": 1,
+      "measure": 11,
+      "x": 1036.257900238037,
+      "y": 2645.840618133545,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 137,
+      "page": 1,
+      "measure": 11,
+      "x": 1127.0640048980713,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 138,
+      "page": 1,
+      "measure": 12,
+      "x": 1349.627986907959,
+      "y": 2487.375062942505,
+      "midi": 56,
+      "beat": 0,
+      "duration": 4,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 139,
+      "page": 1,
+      "measure": 12,
+      "x": 1349.627986907959,
+      "y": 2715.28058052063,
+      "midi": 52,
+      "beat": 0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 140,
+      "page": 1,
+      "measure": 12,
+      "x": 1445.7756271362305,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 0.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 141,
+      "page": 1,
+      "measure": 12,
+      "x": 1543.703779220581,
+      "y": 2645.840618133545,
+      "midi": 64,
+      "beat": 1.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 142,
+      "page": 1,
+      "measure": 12,
+      "x": 1641.6319313049316,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 1.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 143,
+      "page": 1,
+      "measure": 12,
+      "x": 1739.5600833892822,
+      "y": 2715.28058052063,
+      "midi": 52,
+      "beat": 2.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 144,
+      "page": 1,
+      "measure": 12,
+      "x": 1837.4882354736328,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 2.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 145,
+      "page": 1,
+      "measure": 12,
+      "x": 1935.4163875579834,
+      "y": 2645.840618133545,
+      "midi": 64,
+      "beat": 3.0,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    },
+    {
+      "id": 146,
+      "page": 1,
+      "measure": 12,
+      "x": 2033.344539642334,
+      "y": 2676.1093196868896,
+      "midi": 59,
+      "beat": 3.5,
+      "duration": 0.5,
+      "clef": "F",
+      "octaveShift": 0
+    }
+  ],
+  "reviewedPageNumbers": [
+    1
+  ],
+  "reviewedSystems": [
+    {
+      "page": 1,
+      "system": 1
+    },
+    {
+      "page": 1,
+      "system": 2
+    },
+    {
+      "page": 1,
+      "system": 3
+    },
+    {
+      "page": 1,
+      "system": 4
+    },
+    {
+      "page": 1,
+      "system": 5
+    }
+  ],
+  "sourcePulseAlignedMeasures": 76,
+  "onsetAlignmentUncertainties": [],
+  "sourceTieReadings": [
+    {
+      "fromId": 196,
+      "toId": 198,
+      "sourceMeasure": 15,
+      "targetMeasure": 16,
+      "midi": 52
+    },
+    {
+      "fromId": 223,
+      "toId": 226,
+      "sourceMeasure": 17,
+      "targetMeasure": 18,
+      "midi": 68
+    },
+    {
+      "fromId": 258,
+      "toId": 262,
+      "sourceMeasure": 19,
+      "targetMeasure": 20,
+      "midi": 64
+    },
+    {
+      "fromId": 287,
+      "toId": 290,
+      "sourceMeasure": 21,
+      "targetMeasure": 22,
+      "midi": 68
+    },
+    {
+      "fromId": 628,
+      "toId": 632,
+      "sourceMeasure": 41,
+      "targetMeasure": 42,
+      "midi": 80
+    },
+    {
+      "fromId": 629,
+      "toId": 633,
+      "sourceMeasure": 41,
+      "targetMeasure": 42,
+      "midi": 68
+    },
+    {
+      "fromId": 679,
+      "toId": 681,
+      "sourceMeasure": 43,
+      "targetMeasure": 44,
+      "midi": 76
+    },
+    {
+      "fromId": 678,
+      "toId": 682,
+      "sourceMeasure": 43,
+      "targetMeasure": 44,
+      "midi": 64
+    },
+    {
+      "fromId": 710,
+      "toId": 712,
+      "sourceMeasure": 45,
+      "targetMeasure": 46,
+      "midi": 80
+    },
+    {
+      "fromId": 708,
+      "toId": 713,
+      "sourceMeasure": 45,
+      "targetMeasure": 46,
+      "midi": 68
+    },
+    {
+      "fromId": 756,
+      "toId": 760,
+      "sourceMeasure": 47,
+      "targetMeasure": 48,
+      "midi": 76
+    },
+    {
+      "fromId": 757,
+      "toId": 761,
+      "sourceMeasure": 47,
+      "targetMeasure": 48,
+      "midi": 64
+    },
+    {
+      "fromId": 926,
+      "toId": 929,
+      "sourceMeasure": 59,
+      "targetMeasure": 60,
+      "midi": 90
+    },
+    {
+      "fromId": 1068,
+      "toId": 1070,
+      "sourceMeasure": 67,
+      "targetMeasure": 68,
+      "midi": 71
+    },
+    {
+      "fromId": 1203,
+      "toId": 1207,
+      "sourceMeasure": 73,
+      "targetMeasure": 74,
+      "midi": 80
+    },
+    {
+      "fromId": 1306,
+      "toId": 1310,
+      "sourceMeasure": 77,
+      "targetMeasure": 78,
+      "midi": 80
+    },
+    {
+      "fromId": 1417,
+      "toId": 1420,
+      "sourceMeasure": 81,
+      "targetMeasure": 82,
+      "midi": 92
+    },
+    {
+      "fromId": 1476,
+      "toId": 1479,
+      "sourceMeasure": 83,
+      "targetMeasure": 84,
+      "midi": 88
+    },
+    {
+      "fromId": 1477,
+      "toId": 1480,
+      "sourceMeasure": 83,
+      "targetMeasure": 84,
+      "midi": 76
+    },
+    {
+      "fromId": 652,
+      "toId": 657,
+      "sourceMeasure": 43,
+      "targetMeasure": 43,
+      "midi": 76
+    },
+    {
+      "fromId": 654,
+      "toId": 658,
+      "sourceMeasure": 43,
+      "targetMeasure": 43,
+      "midi": 64
+    },
+    {
+      "fromId": 670,
+      "toId": 672,
+      "sourceMeasure": 43,
+      "targetMeasure": 43,
+      "midi": 64
+    },
+    {
+      "fromId": 669,
+      "toId": 673,
+      "sourceMeasure": 43,
+      "targetMeasure": 43,
+      "midi": 76
+    },
+    {
+      "fromId": 732,
+      "toId": 737,
+      "sourceMeasure": 47,
+      "targetMeasure": 47,
+      "midi": 76
+    },
+    {
+      "fromId": 734,
+      "toId": 738,
+      "sourceMeasure": 47,
+      "targetMeasure": 47,
+      "midi": 64
+    },
+    {
+      "fromId": 749,
+      "toId": 751,
+      "sourceMeasure": 47,
+      "targetMeasure": 47,
+      "midi": 64
+    },
+    {
+      "fromId": 748,
+      "toId": 752,
+      "sourceMeasure": 47,
+      "targetMeasure": 47,
+      "midi": 76
+    },
+    {
+      "fromId": 1338,
+      "toId": 1346,
+      "sourceMeasure": 79,
+      "targetMeasure": 79,
+      "midi": 76
+    },
+    {
+      "fromId": 1339,
+      "toId": 1347,
+      "sourceMeasure": 79,
+      "targetMeasure": 79,
+      "midi": 64
+    },
+    {
+      "fromId": 1447,
+      "toId": 1454,
+      "sourceMeasure": 83,
+      "targetMeasure": 83,
+      "midi": 76
+    },
+    {
+      "fromId": 1448,
+      "toId": 1456,
+      "sourceMeasure": 83,
+      "targetMeasure": 83,
+      "midi": 88
+    },
+    {
+      "fromId": 1467,
+      "toId": 1468,
+      "sourceMeasure": 83,
+      "targetMeasure": 83,
+      "midi": 88
+    },
+    {
+      "fromId": 1466,
+      "toId": 1469,
+      "sourceMeasure": 83,
+      "targetMeasure": 83,
+      "midi": 76
+    },
+    {
+      "fromId": 845,
+      "toId": 847,
+      "sourceMeasure": 54,
+      "targetMeasure": 54,
+      "midi": 66
+    },
+    {
+      "fromId": 865,
+      "toId": 866,
+      "sourceMeasure": 55,
+      "targetMeasure": 55,
+      "midi": 66
+    },
+    {
+      "fromId": 975,
+      "toId": 978,
+      "sourceMeasure": 63,
+      "targetMeasure": 63,
+      "midi": 95
+    },
+    {
+      "fromId": 1081,
+      "toId": 1082,
+      "sourceMeasure": 68,
+      "targetMeasure": 68,
+      "midi": 68
+    },
+    {
+      "fromId": 1236,
+      "toId": 1239,
+      "sourceMeasure": 75,
+      "targetMeasure": 75,
+      "midi": 76
+    },
+    {
+      "fromId": 1235,
+      "toId": 1240,
+      "sourceMeasure": 75,
+      "targetMeasure": 75,
+      "midi": 64
+    }
+  ]
+}

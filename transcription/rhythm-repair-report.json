@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-07",
+  "scope": "Source timing repairs, not certification of complete musical accuracy or listening.",
+  "scores": [
+    {
+      "id": "qing-tian",
+      "before": {
+        "id": "qing-tian",
+        "events": 1794,
+        "measures": 77,
+        "unclosedRhythmMeasures": 60,
+        "offGridLaterAttacks": 1134
+      },
+      "after": {
+        "events": 2023,
+        "measures": 77,
+        "unclosedRhythmMeasures": 0,
+        "offGridLaterAttacks": 0,
+        "sourcePulseAlignedMeasures": 64,
+        "onsetAlignmentCandidatesToReview": 31,
+        "rejectedCandidates": 0
+      }
+    },
+    {
+      "id": "wo-ji-de",
+      "before": {
+        "id": "wo-ji-de",
+        "events": 1518,
+        "measures": 89,
+        "unclosedRhythmMeasures": 74,
+        "offGridLaterAttacks": 1018
+      },
+      "after": {
+        "events": 1529,
+        "measures": 89,
+        "unclosedRhythmMeasures": 0,
+        "offGridLaterAttacks": 0,
+        "sourcePulseAlignedMeasures": 76,
+        "onsetAlignmentCandidatesToReview": 0,
+        "rejectedCandidates": 0
+      }
+    },
+    {
+      "id": "interstellar",
+      "before": {
+        "id": "interstellar",
+        "events": 1890,
+        "measures": 92,
+        "unclosedRhythmMeasures": 49,
+        "offGridLaterAttacks": 1117
+      },
+      "after": {
+        "events": 2885,
+        "measures": 107,
+        "unclosedRhythmMeasures": 0,
+        "offGridLaterAttacks": 0,
+        "sourcePulseAlignedMeasures": 0,
+        "onsetAlignmentCandidatesToReview": 0,
+        "rejectedCandidates": 0
+      }
+    },
+    {
+      "id": "your-name-date",
+      "before": {
+        "events": 1096,
+        "measures": 70,
+        "unclosedRhythmMeasures": 30,
+        "manuallyReadMeasures": 24,
+        "measuredTremoloEvents": 0
+      },
+      "after": {
+        "events": 1086,
+        "measures": 70,
+        "unclosedRhythmMeasures": 0,
+        "manuallyReadMeasures": 59,
+        "measuredTremoloEvents": 0
+      }
+    },
+    {
+      "id": "silksong-clockwork-dancers",
+      "before": {
+        "events": 1486,
+        "measures": 75,
+        "unclosedRhythmMeasures": 10,
+        "manuallyReadMeasures": 0,
+        "measuredTremoloEvents": 0
+      },
+      "after": {
+        "events": 1546,
+        "measures": 75,
+        "unclosedRhythmMeasures": 0,
+        "manuallyReadMeasures": 0,
+        "measuredTremoloEvents": 72
+      }
+    },
+    {
+      "id": "jue-bie-shu",
+      "before": {
+        "events": 2404,
+        "measures": 100,
+        "unclosedRhythmMeasures": 67
+      },
+      "after": {
+        "events": 2622,
+        "measures": 100,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 75,
+        "onsetAlignmentCandidatesToReview": 73,
+        "rejectedCandidates": 0
+      },
+      "limitations": [
+        "前 25 小节直接读谱；后段 75 小节按原谱节奏排列，取消整小节缩放。",
+        "扫描音高、候选符头和部分时值仍未逐音复核，未匹配的源谱列及候选见 onsetAlignmentUncertainties。",
+        "只恢复已确认的部分踏板、延音、数字速度与八度线；自由渐慢及全曲演奏表现未完成。",
+        "未完成浏览器实际听音或实体 MIDI 键盘验证。"
+      ]
+    },
+    {
+      "id": "qi-li-xiang",
+      "before": {
+        "events": 2889,
+        "measures": 86,
+        "unclosedRhythmMeasures": 7
+      },
+      "after": {
+        "events": 2889,
+        "measures": 86,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 0,
+        "onsetAlignmentCandidatesToReview": 0,
+        "rejectedCandidates": 0
+      },
+      "limitations": [
+        "已对照原谱修正局部连音、独立声部、跨谱表及八度线，保留全部提取的音符字形。",
+        "全曲逐音准确性及实际听感未校对完成，未实测实体 MIDI。"
+      ],
+      "smallNoteFollowup": {
+        "sourceHeads": 225,
+        "meteredHeads": 139,
+        "ornamentHeads": 86,
+        "referenceVelocity": 0.58,
+        "correctedStaffAssignment": {
+          "sourceMeasure": 30,
+          "previousMeasure": 33,
+          "previousMidi": 103,
+          "midi": 29
+        },
+        "limitation": "力度是较轻的参考演奏值；全曲未完成实际听音复核。"
+      }
+    },
+    {
+      "id": "hei-se-mao-yi",
+      "before": {
+        "events": 1864,
+        "measures": 120,
+        "unclosedRhythmMeasures": 14
+      },
+      "after": {
+        "events": 1864,
+        "measures": 120,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 0,
+        "onsetAlignmentCandidatesToReview": 0,
+        "rejectedCandidates": 0
+      },
+      "limitations": [
+        "已对照原谱修正局部连音、独立声部、跨谱表及八度线，保留全部提取的音符字形。",
+        "全曲逐音准确性及实际听感未校对完成，未实测实体 MIDI。"
+      ]
+    },
+    {
+      "id": "ge-qian",
+      "before": {
+        "events": 1936,
+        "measures": 60,
+        "unclosedRhythmMeasures": 8
+      },
+      "after": {
+        "events": 1969,
+        "measures": 60,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 0,
+        "onsetAlignmentCandidatesToReview": 0,
+        "manuallyAddedHeads": 0
+      },
+      "limitations": [
+        "尚未逐音、逐小节人工校准。",
+        "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+        "小节时长闭合不代表所有音高、时值和分手均正确。",
+        "反复记号未展开，按谱面顺序试听。"
+      ]
+    },
+    {
+      "id": "an-jing",
+      "before": {
+        "events": 1938,
+        "measures": 99,
+        "unclosedRhythmMeasures": 76
+      },
+      "after": {
+        "events": 2052,
+        "measures": 99,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 84,
+        "onsetAlignmentCandidatesToReview": 226,
+        "manuallyAddedHeads": 0
+      },
+      "limitations": [
+        "旋律按原谱拍点对齐；伴奏按已读音型或谱面位置对齐，仍有未匹配列和漏音。",
+        "扫描音高、局部升降号、独立持续声部与伴奏细分尚未逐音校对；节拍闭合不等于整谱正确。",
+        "未完成实际听音及实体 MIDI 键盘验证。"
+      ]
+    },
+    {
+      "id": "flower-dance",
+      "before": {
+        "events": 1820,
+        "measures": 119,
+        "unclosedRhythmMeasures": 113
+      },
+      "after": {
+        "events": 2319,
+        "measures": 120,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 120,
+        "onsetAlignmentCandidatesToReview": 735,
+        "manuallyAddedHeads": 106
+      },
+      "limitations": [
+        "旋律按原谱拍点对齐；伴奏按已读音型或谱面位置对齐，仍有未匹配列和漏音。",
+        "扫描音高、局部升降号、独立持续声部与伴奏细分尚未逐音校对；节拍闭合不等于整谱正确。",
+        "未完成实际听音及实体 MIDI 键盘验证。"
+      ]
+    },
+    {
+      "id": "pu-gong-ying-de-yue-ding",
+      "before": {
+        "events": 2393,
+        "measures": 93,
+        "unclosedRhythmMeasures": 17
+      },
+      "after": {
+        "events": 2393,
+        "measures": 93,
+        "unclosedRhythmMeasures": 0,
+        "sourcePulseAlignedMeasures": 0,
+        "onsetAlignmentCandidatesToReview": 0,
+        "manuallyAddedHeads": 0
+      },
+      "limitations": [
+        "尚未逐音、逐小节人工校准。",
+        "扫描识别可能漏音、多音；变调、八度线、连线、复调和重复段待复核。",
+        "小节时长闭合不代表所有音高、时值和分手均正确。",
+        "反复记号未展开，按谱面顺序试听。"
+      ]
+    }
+  ]
+}

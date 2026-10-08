@@ -23,27 +23,70 @@ class SamplePiano {
     return this.loading;
   }
   async fetch(url){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);try{const r=await fetch(url,{signal:controller.signal});if(!r.ok)throw Error('Sample unavailable');return r;}finally{clearTimeout(timer);}}
-  play(midi,when,duration,hand='R',velocity=1){
+  play(midi,when,duration,hand='R',velocity=1,options={}){
     const ctx=this.ctx;
     if(!this.buffers.size)throw Error('Piano samples not ready');
-    if(this.voices.size>=128)this.voices.values().next().value.stop();
+    if(!(velocity>0))return null;
     const root=[...this.buffers.keys()].reduce((a,b)=>Math.abs(a-midi)<=Math.abs(b-midi)?a:b);
+    const buffer=this.buffers.get(root),rate=2**((midi-root)/12);
+    const offset=Math.max(0,options.offset||0)*rate;
+    if(offset>=buffer.duration)return null;
+    when=Math.max(ctx.currentTime,when);
+    // Repeated keys damp the previous excitation with a short crossfade.
+    for(const old of this.voices)if(old.midi===midi&&old.when<when-1e-5)old.damp(when,.028);
+    if(this.voices.size>=128){
+      const victim=[...this.voices].sort((a,b)=>a.levelAt(ctx.currentTime)-b.levelAt(ctx.currentTime)||a.when-b.when)[0];
+      victim.stop();
+    }
     const source=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),gain=ctx.createGain(),pan=ctx.createStereoPanner();
-    source.buffer=this.buffers.get(root);source.playbackRate.value=2**((midi-root)/12);
-    const v=Math.max(.08,Math.min(1.25,velocity)),level=.54*(hand==='L'?.88:1)*v**1.45;
+    source.buffer=buffer;source.playbackRate.value=rate;
+    // Hand balance belongs to the playback interpretation, not to live MIDI
+    // input: pressing the same physical key should retain its input velocity.
+    const v=Math.min(1.25,velocity),level=.54*v**1.45;
     filter.type='lowpass';filter.frequency.value=Math.min(18000,2000+12500*Math.min(1,v)**1.5);filter.Q.value=.45;
     pan.pan.value=Math.max(-.24,Math.min(.24,(midi-64)/160));
     source.connect(filter);filter.connect(gain);gain.connect(pan);pan.connect(this.dry);pan.connect(this.room);
     gain.gain.setValueAtTime(0,when);gain.gain.linearRampToValueAtTime(level,when+.003);
-    let ended=false,released=false;
-    const voice={release:(at=ctx.currentTime)=>{
-      if(ended||released)return;released=true;at=Math.max(at,when+.008);
-      const tail=Math.max(.11,Math.min(.36,.34-(midi-21)*.0026));
-      gain.gain.cancelScheduledValues(at);gain.gain.setValueAtTime(level,at);gain.gain.exponentialRampToValueAtTime(.0001,at+tail);source.stop(at+tail+.02);
-    },stop:()=>{if(ended)return;gain.gain.cancelScheduledValues(ctx.currentTime);gain.gain.setValueAtTime(0,ctx.currentTime);try{source.stop();}catch{}cleanup();}};
-    const cleanup=()=>{if(ended)return;ended=true;this.voices.delete(voice);source.disconnect();filter.disconnect();gain.disconnect();pan.disconnect();};source.onended=cleanup;
-    this.hasSound=true;this.voices.add(voice);source.start(when);
-    if(Number.isFinite(duration))voice.release(when+Math.max(.03,duration));
+    let ended=false,releaseEnd=Infinity;
+    const fades=[];
+    const floor=.00001;
+    const levelAt=t=>{
+      if(t<when)return 0;
+      if(t<when+.003)return level*(t-when)/.003;
+      const segment=fades.findLast(s=>s.at<=t);
+      if(!segment)return level;
+      if(t>=segment.end)return floor;
+      return segment.level*(floor/segment.level)**((t-segment.at)/(segment.end-segment.at));
+    };
+    const fade=(at,tail)=>{
+      if(ended)return;
+      at=Math.max(ctx.currentTime,at,when+.004);
+      if(at+tail>=releaseEnd)return;
+      const value=Math.max(floor,levelAt(at));
+      // Hold the existing envelope rather than jumping back to attack level.
+      if(typeof gain.gain.cancelAndHoldAtTime==='function')gain.gain.cancelAndHoldAtTime(at);
+      else{
+        gain.gain.cancelScheduledValues(at);
+        if(fades.some(s=>s.at<at))gain.gain.exponentialRampToValueAtTime(value,at);
+      }
+      gain.gain.setValueAtTime(value,at);gain.gain.exponentialRampToValueAtTime(floor,at+tail);
+      // Keep earlier decay segments: a pause can precede a repeat that was
+      // already scheduled ahead, and must hold the level at the pause time.
+      while(fades.length&&fades.at(-1).at>=at)fades.pop();
+      releaseEnd=at+tail;fades.push({at,end:releaseEnd,level:value});source.stop(releaseEnd+.015);
+    };
+    const cleanup=()=>{if(ended)return;ended=true;this.voices.delete(voice);source.disconnect();filter.disconnect();gain.disconnect();pan.disconnect();};
+    const voice={midi,when,levelAt,damp:fade,
+      release:(at=ctx.currentTime)=>fade(at,Math.max(.13,Math.min(.38,.37-(midi-21)*.0026))),
+      stop:()=>{
+        if(ended)return;
+        this.voices.delete(voice);
+        if(ctx.currentTime<when){source.stop(ctx.currentTime);cleanup();return;}
+        fade(ctx.currentTime,.012);
+      }
+    };
+    source.onended=cleanup;this.hasSound=true;this.voices.add(voice);source.start(when,offset);
+    if(Number.isFinite(duration))voice.release(when+Math.max(.008,duration));
     return voice;
   }
   silence(){if(!this.hasSound)return;this.hasSound=false;for(const voice of [...this.voices])voice.stop();

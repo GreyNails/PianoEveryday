@@ -1,0 +1,347 @@
+{
+  "measures": 44,
+  "pages": 2,
+  "events": 1185,
+  "attacks": 1129,
+  "ties": [
+    {
+      "fromMeasure": 5,
+      "toMeasure": 5,
+      "midi": 37,
+      "beat": 18.75
+    },
+    {
+      "fromMeasure": 5,
+      "toMeasure": 5,
+      "midi": 25,
+      "beat": 18.75
+    },
+    {
+      "fromMeasure": 8,
+      "toMeasure": 8,
+      "midi": 38,
+      "beat": 28.0
+    },
+    {
+      "fromMeasure": 8,
+      "toMeasure": 8,
+      "midi": 26,
+      "beat": 28.0
+    },
+    {
+      "fromMeasure": 9,
+      "toMeasure": 9,
+      "midi": 81,
+      "beat": 32.5
+    },
+    {
+      "fromMeasure": 9,
+      "toMeasure": 9,
+      "midi": 69,
+      "beat": 32.5
+    },
+    {
+      "fromMeasure": 11,
+      "toMeasure": 11,
+      "midi": 73,
+      "beat": 40.0
+    },
+    {
+      "fromMeasure": 11,
+      "toMeasure": 11,
+      "midi": 66,
+      "beat": 40.0
+    },
+    {
+      "fromMeasure": 11,
+      "toMeasure": 11,
+      "midi": 68,
+      "beat": 41.75
+    },
+    {
+      "fromMeasure": 11,
+      "toMeasure": 12,
+      "midi": 69,
+      "beat": 43.75
+    },
+    {
+      "fromMeasure": 13,
+      "toMeasure": 13,
+      "midi": 73,
+      "beat": 48.0
+    },
+    {
+      "fromMeasure": 13,
+      "toMeasure": 13,
+      "midi": 66,
+      "beat": 48.0
+    },
+    {
+      "fromMeasure": 13,
+      "toMeasure": 13,
+      "midi": 80,
+      "beat": 49.75
+    },
+    {
+      "fromMeasure": 13,
+      "toMeasure": 14,
+      "midi": 73,
+      "beat": 51.75
+    },
+    {
+      "fromMeasure": 15,
+      "toMeasure": 15,
+      "midi": 85,
+      "beat": 56.0
+    },
+    {
+      "fromMeasure": 15,
+      "toMeasure": 15,
+      "midi": 78,
+      "beat": 56.0
+    },
+    {
+      "fromMeasure": 15,
+      "toMeasure": 15,
+      "midi": 80,
+      "beat": 57.75
+    },
+    {
+      "fromMeasure": 15,
+      "toMeasure": 16,
+      "midi": 76,
+      "beat": 59.75
+    },
+    {
+      "fromMeasure": 16,
+      "toMeasure": 16,
+      "midi": 64,
+      "beat": 61.75
+    },
+    {
+      "fromMeasure": 16,
+      "toMeasure": 16,
+      "midi": 52,
+      "beat": 61.75
+    },
+    {
+      "fromMeasure": 16,
+      "toMeasure": 17,
+      "midi": 76,
+      "beat": 63.75
+    },
+    {
+      "fromMeasure": 17,
+      "toMeasure": 18,
+      "midi": 83,
+      "beat": 67.75
+    },
+    {
+      "fromMeasure": 18,
+      "toMeasure": 18,
+      "midi": 78,
+      "beat": 69.75
+    },
+    {
+      "fromMeasure": 25,
+      "toMeasure": 25,
+      "midi": 66,
+      "beat": 96.75
+    },
+    {
+      "fromMeasure": 25,
+      "toMeasure": 26,
+      "midi": 61,
+      "beat": 99.75
+    },
+    {
+      "fromMeasure": 27,
+      "toMeasure": 27,
+      "midi": 90,
+      "beat": 104.25
+    },
+    {
+      "fromMeasure": 27,
+      "toMeasure": 27,
+      "midi": 78,
+      "beat": 104.25
+    },
+    {
+      "fromMeasure": 27,
+      "toMeasure": 27,
+      "midi": 90,
+      "beat": 104.5
+    },
+    {
+      "fromMeasure": 27,
+      "toMeasure": 27,
+      "midi": 78,
+      "beat": 104.5
+    },
+    {
+      "fromMeasure": 27,
+      "toMeasure": 27,
+      "midi": 66,
+      "beat": 104.25
+    },
+    {
+      "fromMeasure": 27,
+      "toMeasure": 27,
+      "midi": 66,
+      "beat": 104.5
+    },
+    {
+      "fromMeasure": 28,
+      "toMeasure": 29,
+      "midi": 69,
+      "beat": 111.5
+    },
+    {
+      "fromMeasure": 28,
+      "toMeasure": 29,
+      "midi": 57,
+      "beat": 111.5
+    },
+    {
+      "fromMeasure": 30,
+      "toMeasure": 31,
+      "midi": 69,
+      "beat": 119.5
+    },
+    {
+      "fromMeasure": 30,
+      "toMeasure": 31,
+      "midi": 57,
+      "beat": 119.5
+    },
+    {
+      "fromMeasure": 32,
+      "toMeasure": 33,
+      "midi": 69,
+      "beat": 127.5
+    },
+    {
+      "fromMeasure": 33,
+      "toMeasure": 33,
+      "midi": 42,
+      "beat": 128.0
+    },
+    {
+      "fromMeasure": 33,
+      "toMeasure": 33,
+      "midi": 30,
+      "beat": 128.0
+    },
+    {
+      "fromMeasure": 33,
+      "toMeasure": 33,
+      "midi": 25,
+      "beat": 129.75
+    },
+    {
+      "fromMeasure": 34,
+      "toMeasure": 35,
+      "midi": 71,
+      "beat": 135.5
+    },
+    {
+      "fromMeasure": 34,
+      "toMeasure": 35,
+      "midi": 59,
+      "beat": 135.5
+    },
+    {
+      "fromMeasure": 35,
+      "toMeasure": 35,
+      "midi": 30,
+      "beat": 137.75
+    },
+    {
+      "fromMeasure": 38,
+      "toMeasure": 38,
+      "midi": 80,
+      "beat": 149.75
+    },
+    {
+      "fromMeasure": 38,
+      "toMeasure": 38,
+      "midi": 68,
+      "beat": 149.75
+    },
+    {
+      "fromMeasure": 38,
+      "toMeasure": 39,
+      "midi": 81,
+      "beat": 151.75
+    },
+    {
+      "fromMeasure": 38,
+      "toMeasure": 39,
+      "midi": 69,
+      "beat": 151.75
+    },
+    {
+      "fromMeasure": 39,
+      "toMeasure": 40,
+      "midi": 78,
+      "beat": 155.75
+    },
+    {
+      "fromMeasure": 40,
+      "toMeasure": 41,
+      "midi": 69,
+      "beat": 159.75
+    },
+    {
+      "fromMeasure": 41,
+      "toMeasure": 42,
+      "midi": 83,
+      "beat": 163.75
+    },
+    {
+      "fromMeasure": 41,
+      "toMeasure": 42,
+      "midi": 71,
+      "beat": 163.75
+    },
+    {
+      "fromMeasure": 41,
+      "toMeasure": 41,
+      "midi": 42,
+      "beat": 160.0
+    },
+    {
+      "fromMeasure": 41,
+      "toMeasure": 41,
+      "midi": 42,
+      "beat": 160.75
+    },
+    {
+      "fromMeasure": 42,
+      "toMeasure": 42,
+      "midi": 85,
+      "beat": 165.75
+    },
+    {
+      "fromMeasure": 42,
+      "toMeasure": 42,
+      "midi": 73,
+      "beat": 165.75
+    },
+    {
+      "fromMeasure": 42,
+      "toMeasure": 43,
+      "midi": 80,
+      "beat": 167.75
+    },
+    {
+      "fromMeasure": 42,
+      "toMeasure": 43,
+      "midi": 68,
+      "beat": 167.75
+    }
+  ],
+  "sourceAmbiguities": [
+    "第 9–10 小节上方连续音型未印六连音数字；需确认演奏分组。"
+  ]
+}

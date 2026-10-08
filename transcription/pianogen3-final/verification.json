@@ -1,0 +1,17 @@
+{
+  "newScores": 21,
+  "totalScores": 51,
+  "newMidiNotes": 41874,
+  "newPdfPages": 127,
+  "originalScoresUnchanged": 30,
+  "pythonRegressionTests": 30,
+  "pythonRegressionResult": "passed",
+  "performanceTests": "passed; all 51 scores",
+  "libraryTests": "passed; full simulated MIDI traversal, left/right/both",
+  "pdfVisualSpotChecks": [
+    "final-enchanted page 1 portrait",
+    "final-look-what-you-made-me-do page 1 landscape"
+  ],
+  "browserCheck": "not executed: Chromium launch blocked by environment (sandbox_host_linux: Operation not permitted)",
+  "physicalMidiTest": "not performed"
+}
